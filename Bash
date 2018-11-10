@@ -1,0 +1,37 @@
+# ~/.bashrc
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+if [ -d "$HOME/.bin" ] ;
+	then PATH="$HOME/.bin:$PATH"
+fi
+
+#Environment Variables
+PS1=' > '
+RANGER_LOAD_DEFAULT_RC=FALSE
+EDITOR=vim
+PAGER=vim
+TERM=termite
+export VISUAL EDITOR=vim
+export EDITOR
+export TERM
+
+#Using neofetch and w3m to use a custom terminal photo
+alias neo='neofetch --w3m /home/user/Pictures/btwiusearch.png'
+
+# General Shortcuts
+alias ls='ls --color=auto'
+alias mp='makepkg -si'
+alias update='sudo pacman -Syyu'
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias hw="hwinfo --short"
+alias mirrors="sudo reflector --protocol https --latest 50 --number 20 --sort rate --save /etc/pacman.d/mirrorlist"
+
+# Ranger Shortcuts
+alias rh='ranger /home/user'
+alias rd='ranger ~/Documents'
+alias rr='ranger /run/media/user'
+
+# YouTube Downloader
+alias ydl='youtube-dl'
