@@ -18,7 +18,7 @@ export EDITOR
 export TERM
 
 #Using neofetch and w3m to use a custom terminal photo
-alias neo='neofetch --w3m /home/user/Pictures/btwiusearch.png'
+#alias neo='neofetch --w3m /home/user/Pictures/btwiusearch.png'
 
 # General Shortcuts
 alias ls='ls --color=auto'
