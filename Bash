@@ -17,16 +17,20 @@ export VISUAL EDITOR=vim
 export EDITOR
 export TERM
 
-#Using neofetch and w3m to use a custom terminal photo
+#Using neofetch and w3m to set a custom terminal photo
 #alias neo='neofetch --w3m /home/user/Pictures/btwiusearch.png'
 
 # General Shortcuts
 alias ls='ls --color=auto'
 alias mp='makepkg -si'
+alias ps='sudo pacman -S'
+alias pr='sudo pacman -R'
 alias update='sudo pacman -Syyu'
+alias list='pacman -Q > package_list.txt'
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias hw="hwinfo --short"
 alias mirrors="sudo reflector --protocol https --latest 50 --number 20 --sort rate --save /etc/pacman.d/mirrorlist"
+alias xr='xrdb -load ~/.Xresources'
 
 # Ranger Shortcuts
 alias rh='ranger /home/user'
