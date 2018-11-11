@@ -7,7 +7,7 @@ set nocompatible
 filetype off
 
 " Turn on syntax highlighting
-syntax on
+syntax off
 
 " For plugins to load correctly
 filetype plugin indent on
