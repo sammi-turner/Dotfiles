@@ -7,7 +7,7 @@ if [ -d "$HOME/.bin" ] ;
 	then PATH="$HOME/.bin:$PATH"
 fi
 
-#Environment Variables
+# Environment Variables
 PS1=' > '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=vim
