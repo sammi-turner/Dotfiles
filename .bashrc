@@ -51,3 +51,8 @@ alias ydl='youtube-dl'
 
 # For system specs alongside a custom pic
 alias neo='neofetch --w3m /home/user/Pictures/hal.png'
+
+# Start up, shutdown and reboot with .xinitrc
+alias sx='startx'
+alias sn='sudo shutdown now'
+alias sr='sudo reboot'
