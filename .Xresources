@@ -1,0 +1,15 @@
+! ~/.Xresources
+
+r-enabled:  true
+
+rofi.color-window:  #1f2323, #1f2323, #1f2323
+rofi.color-normal:  #1f2323, #dcdccc, #1f2323, #1f2323, #705050
+rofi.color-active:  #1f2323, #dcdccc, #1f2323, #1f2323, #705050
+rofi.color-urgent:  #1f2323, #dcdccc, #1f2323, #1f2323, #705050
+
+rofi.fake-transparency: false
+rofi.lines:   10
+rofi.bw:    0
+rofi.opacity:   "5"
+rofi.hide-scrollbar:  true
+rofi.width: 30
