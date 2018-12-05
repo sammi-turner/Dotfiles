@@ -36,7 +36,7 @@ alias update='sudo pacman -Syyu'
 alias list='pacman -Q > package_list.txt'
 
 # To reload .Xresources setting for Rofi
-alias xr='xrdb -load ~/.Xresources'
+alias xr='xrdb ~/.Xresources'
 
 # DuckDuckGo search in the terminal
 alias dr='ddgr --num 10'
