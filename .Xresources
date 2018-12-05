@@ -5,8 +5,8 @@ XTerm.vt100.font: 8x15
 
 ! xterm colours
 xterm*background: #1f2323
-xterm*foreground: #dcdccc
-xterm*cursorColor: #dcdccc
+xterm*foreground: #dfdfdf
+xterm*cursorColor: #dfdfdf
 xterm*color0: #1f2326
 xterm*color1: #705050
 xterm*color2: #60b48a
@@ -23,6 +23,30 @@ xterm*color12: #94bff3
 xterm*color13: #ec93d3
 xterm*color14: #93e0e3
 xterm*color15: #ffffff
+
+UXTerm.vt100.faceName: Monospace:size=12:antialias=false
+UXTerm.vt100.font: 8x15
+
+! uxterm colours
+uxterm*background: #1f2323
+uxterm*foreground: #dfdfdf
+uxterm*cursorColor: #dfdfdf
+uxterm*color0: #1f2326
+uxterm*color1: #705050
+uxterm*color2: #60b48a
+uxterm*color3: #dfaf8f
+uxterm*color4: #506070
+uxterm*color5: #dc8cc3
+uxterm*color6: #8cd0d3
+uxterm*color7: #dcdccc
+uxterm*color8: #709080
+uxterm*color9: #dca3a3
+uxterm*color10: #c3bf9f
+uxterm*color11: #f0dfaf
+uxterm*color12: #94bff3
+uxterm*color13: #ec93d3
+uxterm*color14: #93e0e3
+uxterm*color15: #ffffff
 
 r-enabled:  true
 
