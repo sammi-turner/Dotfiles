@@ -12,7 +12,7 @@ PS1=' > '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=vim
 PAGER=vim
-TERM=UXTerm
+TERM=urxvt
 export VISUAL EDITOR=vim
 export EDITOR
 export TERM
