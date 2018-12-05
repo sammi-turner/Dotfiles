@@ -12,11 +12,10 @@ PS1=' > '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=vim
 PAGER=vim
-TERM=termite
+TERM=UXTerm
 export VISUAL EDITOR=vim
 export EDITOR
 export TERM
-
 
 # General Shortcuts
 alias ls='ls --color=auto'
@@ -35,7 +34,7 @@ alias update='sudo pacman -Syyu'
 # To generate a text file containing a list of installed packages
 alias list='pacman -Q > package_list.txt'
 
-# To reload .Xresources setting for Rofi
+# To reload .Xresources
 alias xr='xrdb ~/.Xresources'
 
 # DuckDuckGo search in the terminal
@@ -50,7 +49,7 @@ alias rr='ranger /run/media/user'
 alias ydl='youtube-dl'
 
 # For system specs alongside a custom pic
-alias neo='neofetch'
+alias neo='neofetch --w3m /home/user/Pictures/hal.png'
 
 # Start up, shutdown and reboot with .xinitrc
 alias sx='startx'
