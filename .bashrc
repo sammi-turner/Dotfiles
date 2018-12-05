@@ -50,7 +50,7 @@ alias rr='ranger /run/media/user'
 alias ydl='youtube-dl'
 
 # For system specs alongside a custom pic
-alias neo='neofetch --w3m /home/user/Pictures/hal.png'
+alias neo='neofetch'
 
 # Start up, shutdown and reboot with .xinitrc
 alias sx='startx'
