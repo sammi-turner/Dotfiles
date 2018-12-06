@@ -12,7 +12,7 @@ PS1=' > '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=vim
 PAGER=vim
-TERM=urxvt
+TERM=termite
 export VISUAL EDITOR=vim
 export EDITOR
 export TERM
@@ -33,12 +33,6 @@ alias update='sudo pacman -Syyu'
 
 # To generate a text file containing a list of installed packages
 alias list='pacman -Q > package_list.txt'
-
-# To reload .Xresources
-alias xr='xrdb ~/.Xresources'
-
-# DuckDuckGo search in the terminal
-alias dr='ddgr --num 10'
 
 # Ranger shortcuts
 alias rh='ranger /home/user'
