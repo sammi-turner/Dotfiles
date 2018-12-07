@@ -34,7 +34,7 @@ scrollbar = off
 cursor = #DFDFDF
 cursor_foreground = #DFDFDF
 foreground = #DFDFDF
-background = #2C3133
+background = #1D1E21
 
 # 20% background transparency (requires a compositor)
 # background = rgba(63, 63, 63, 0.8)
