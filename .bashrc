@@ -103,7 +103,11 @@ alias rr='ranger /run/media/user/0ce8f3ca-3f5e-4dc7-b71f-532962b268dc'
 # For system specs alongside a custom pic
 alias neo='neofetch'
 
-# For start up, shutdown and reboot with .xinitrc
+# Start up with .xinitrc
 alias sx='startx'
+
+# Shut-down from terminal
 alias sn='sudo shutdown now'
+
+# Reboot from terminal
 alias sr='sudo reboot'
