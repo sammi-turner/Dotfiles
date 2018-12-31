@@ -91,10 +91,14 @@ alias up='sudo pacman -Syyu'
 # To generate a text file containing a list of installed packages
 alias list='pacman -Q > package_list.txt'
 
-# Ranger shortcuts
+# Home folder from Ranger
 alias rh='ranger /home/user'
+
+# Dcuments folder from Ranger
 alias rd='ranger ~/Documents'
-alias rr='ranger /run/media/user'
+
+# External hard drive from Ranger
+alias rr='ranger /run/media/user/0ce8f3ca-3f5e-4dc7-b71f-532962b268dc'
 
 # For system specs alongside a custom pic
 alias neo='neofetch'
