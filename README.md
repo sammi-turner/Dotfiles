@@ -1,2 +1,2 @@
 # Dotfiles
-Minimal set-ups for vim, bash and termite.
+Simple set-ups for vim and bash.
