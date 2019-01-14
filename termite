@@ -1,6 +1,7 @@
 # ~/.config/termite/config
 
 [options]
+
 allow_bold = true
 audible_bell = false
 browser = xdg-open
@@ -9,7 +10,7 @@ cursor_blink = system
 cursor_shape = block
 dynamic_title = true
 filter_unmatched_urls = true
-font = Monospace 12
+font = Droid Sans Mono Bold 11
 geometry = 900x650
 highlight = #2f2f2f
 icon_name = terminal
@@ -23,7 +24,8 @@ search_wrap = true
 urgent_on_bell = true
 
 [hints]
-#font = Monospace 12
+
+#font = Droid Sans Mono Bold 11
 #foreground = #dcdccc
 #background = #3f3f3f
 #active_foreground = #e68080
@@ -34,42 +36,50 @@ urgent_on_bell = true
 #roundness = 2.0
 
 [colors]
-background = rgba(40, 42, 54, 0.8)
 
-# special
-foreground      = #f8f8f2
-foreground_bold = #f8f8f2
-cursor          = #f8f8f2
-background      = #2c173d
+# Base16 Solarized Dark
 
-# black
-color0  = #000000
-color8  = #4d4d4d
+foreground      = #93a1a1
+foreground_bold = #eee8d5
+cursor          = #eee8d5
+background      = #002b36
 
-# red
-color1  = #ff5555
-color9  = #ff6e67
+# 16 color space
 
-# green
-color2  = #50fa7b
-color10 = #5af78e
+# Black, Gray, Silver, White
+color0  = #002b36
+color8  = #657b83
+color7  = #93a1a1
+color15 = #fdf6e3
 
-# yellow
-color3  = #f1fa8c
-color11 = #f4f99d
+# Red
+color1  = #dc322f
+color9  = #dc322f
 
-# blue
-color4  = #bd93f9
-color12 = #caa9fa
+# Green
+color2  = #859900
+color10 = #859900
 
-# magenta
-color5  = #ff79c6
-color13 = #ff92d0
+# Yellow
+color3  = #b58900
+color11 = #b58900
 
-# cyan
-color6  = #8be9fd
-color14 = #9aedfe
+# Blue
+color4  = #268bd2
+color12 = #268bd2
 
-# white
-color7  = #bfbfbf
-color15 = #e6e6e6
+# Purple
+color5  = #6c71c4
+color13 = #6c71c4
+
+# Teal
+color6  = #2aa198
+color14 = #2aa198
+
+# Extra colors
+color16 = #cb4b16
+color17 = #d33682
+color18 = #073642
+color19 = #586e75
+color20 = #839496
+color21 = #eee8d5
