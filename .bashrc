@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Environment Variables
-PS1=' > '
+PS1='[\w] '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=vim
 PAGER=vim
