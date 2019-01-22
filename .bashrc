@@ -90,7 +90,7 @@ alias up='sudo pacman -Syyu'
 alias list='pacman -Q > package_list.txt'
 
 # Home folder from Ranger
-alias rh='ranger /home/user'
+alias rh='ranger'
 
 # Dcuments folder from Ranger
 alias rd='ranger ~/Documents'
