@@ -96,7 +96,7 @@ alias rh='ranger'
 alias rd='ranger ~/Documents'
 
 # External hard drive from Ranger
-alias rr='ranger /run/media/user/0ce8f3ca-3f5e-4dc7-b71f-532962b268dc'
+alias rr='ranger /run/media/user/0ce8f3ca-3f5e-4dc7-b71f-532962b268dc/'
 
 # For system specs
 alias neo='neofetch'
