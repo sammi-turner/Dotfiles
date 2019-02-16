@@ -82,8 +82,8 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -100"
 alias mp='makepkg -si'
 
 # Pacman commands
-alias ps='sudo pacman -S'
-alias pr='sudo pacman -R'
+alias sps='sudo pacman -S'
+alias spr='sudo pacman -R'
 alias up='sudo pacman -Syyu'
 
 # To generate a text file containing a list of installed packages
