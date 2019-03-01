@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Environment Variables
-PS1='[\w] '
+PS1=' [\w] '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=vim
 PAGER=vim
@@ -23,6 +23,9 @@ alias la='ls -a'
 alias ll='ls -la'
 alias l='ls' 					
 alias l.="ls -A | egrep '^\.'"      
+
+#git clone
+alias gcl='git clone'
 
 #readable output
 alias df='df -h'
