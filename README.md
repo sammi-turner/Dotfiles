@@ -1,2 +1,3 @@
 # Dotfiles
-Simple set-ups for vim and bash.
+
+Simple set-ups for your home folder.
