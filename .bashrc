@@ -6,10 +6,10 @@
 # Environment Variables
 PS1=' > '
 RANGER_LOAD_DEFAULT_RC=FALSE
-EDITOR=vim
-PAGER=vim
+EDITOR=nvim
+PAGER=nvim
 TERM=termite
-export VISUAL EDITOR=vim
+export VISUAL EDITOR=nvim
 export EDITOR
 export TERM
 
@@ -91,6 +91,12 @@ alias up='sudo pacman -Syyu'
 
 # To generate a text file containing a list of installed packages
 alias list='pacman -Q > package_list.txt'
+
+# Home folder from Ranger
+alias rh='ranger /home/user'
+
+# Dcuments folder from Ranger
+alias rd='ranger ~/Documents'
 
 # For system specs
 alias neo='neofetch'
