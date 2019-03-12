@@ -1,3 +1,3 @@
 # Dotfiles
 
-Simple set-ups for your home folder.
+Simple set-ups for bash and neovim
