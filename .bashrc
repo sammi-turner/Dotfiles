@@ -22,7 +22,11 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
 alias l='ls' 					
-alias l.="ls -A | egrep '^\.'"      
+alias l.="ls -A | egrep '^\.'" 
+
+#ranger
+alias rh='ranger'
+alias rmu='ranger /run/media/user/'
 
 #git clone
 alias gcl='git clone'
