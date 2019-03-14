@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Environment Variables
-PS1=' > '
+PS1='[\w] '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=nvim
 PAGER=nvim
@@ -14,7 +14,7 @@ export EDITOR
 export TERM
 
 if [ -d "$HOME/.bin" ] ;
-	then PATH="$HOME/.bin:$PATH"
+  then PATH="$HOME/.bin:$PATH"
 fi
 
 #list
@@ -22,11 +22,11 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
 alias l='ls' 					
-alias l.="ls -A | egrep '^\.'" 
+alias l.="ls -A | egrep '^\.'"
 
 #ranger
 alias rh='ranger'
-alias rmu='ranger /run/media/user/'
+alias rmu='ranger /run/media/user/'   
 
 #git clone
 alias gcl='git clone'
@@ -97,7 +97,7 @@ alias up='sudo pacman -Syyu'
 alias list='pacman -Q > package_list.txt'
 
 # For system specs
-alias neo='neofetch'
+alias neo='echo;neofetch'
 
 # Start up with .xinitrc
 alias sx='startx'
