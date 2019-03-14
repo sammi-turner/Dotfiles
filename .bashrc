@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Environment Variables
-PS1='[\w] '
+PS1=' [\w] '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=nvim
 PAGER=nvim
@@ -97,7 +97,7 @@ alias up='sudo pacman -Syyu'
 alias list='pacman -Q > package_list.txt'
 
 # For system specs
-alias neo='echo;neofetch'
+alias btw='echo;screenfetch;echo'
 
 # Start up with .xinitrc
 alias sx='startx'
@@ -107,3 +107,5 @@ alias sn='sudo shutdown now'
 
 # Reboot from terminal
 alias sr='sudo reboot'
+
+btw
