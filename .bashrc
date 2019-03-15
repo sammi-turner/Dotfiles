@@ -26,7 +26,7 @@ alias l.="ls -A | egrep '^\.'"
 
 #ranger
 alias rh='ranger'
-alias rmu='ranger /run/media/user/'   
+alias rmu='ranger /run/media/user'   
 
 #git clone
 alias gcl='git clone'
