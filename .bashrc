@@ -107,5 +107,3 @@ alias sn='sudo shutdown now'
 
 # Reboot from terminal
 alias sr='sudo reboot'
-
-btw
