@@ -31,8 +31,8 @@ alias rmu='ranger /run/media/user'
 #git clone
 alias gcl='git clone'
 
-#readable output
-alias df='df -h'
+#disk usage
+alias du='df -h'
 
 #pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
