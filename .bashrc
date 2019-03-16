@@ -34,9 +34,6 @@ alias gcl='git clone'
 #disk usage
 alias du='df -h'
 
-#pacman unlock
-alias unlock="sudo rm /var/lib/pacman/db.lck"
-
 #free
 alias free="free -mt"
 
@@ -92,8 +89,7 @@ alias mp='makepkg -si'
 alias sps='sudo pacman -S'
 alias spr='sudo pacman -R'
 alias up='sudo pacman -Syyu'
-
-# To generate a text file containing a list of installed packages
+alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias list='pacman -Q > package_list.txt'
 
 # For system specs
