@@ -31,6 +31,15 @@ alias rmu='ranger /run/media/user'
 #git clone
 alias gcl='git clone'
 
+# Compile ncurses C code with LLVM
+alias ncu='clang -lncurses'
+
+# Change directory to my C folder
+alias cdc='cd C'
+
+# Run a freshly compiled binary
+alias run='./a.out'
+
 #disk usage
 alias du='df -h'
 
