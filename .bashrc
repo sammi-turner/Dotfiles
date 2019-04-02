@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Environment Variables
-PS1=' [\w] '
+PS1=' > '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=nvim
 PAGER=nvim
@@ -39,6 +39,12 @@ alias cdc='cd C'
 
 # Run a freshly compiled binary
 alias run='./a.out'
+
+# Compile C with clang
+alias cwc='clang'
+
+# Compile C++ with clang
+alias cpp='clang++'
 
 #disk usage
 alias du='df -h'
