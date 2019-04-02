@@ -40,10 +40,10 @@ alias cdc='cd C'
 # Run a freshly compiled binary
 alias run='./a.out'
 
-# Compile C with clang
+# Compile C with LLVM
 alias cwc='clang'
 
-# Compile C++ with clang
+# Compile C++ with LLVM
 alias cpp='clang++'
 
 #disk usage
