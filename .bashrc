@@ -24,27 +24,23 @@ alias ll='ls -la'
 alias l='ls' 					
 alias l.="ls -A | egrep '^\.'"
 
+#xampp
+alias opt='cd /opt/lampp/'
+alias ht='sudo code /opt/lampp/htdocs/'
+alias panel='sudo ./manager-linux-x64.run'
+alias start='sudo /opt/lampp/lampp start'
+alias stop='sudo /opt/lampp/lampp stop'
+alias restart='sudo /opt/lampp/lampp restart'
+
 #ranger
 alias rr='ranger'
 alias rmu='ranger /run/media/user'   
 
+#curse radio
+alias cur='curseradio'
+
 #git clone
 alias gcl='git clone'
-
-# Compile ncurses C code with LLVM
-alias ncu='clang -lncurses'
-
-# Change directory to my C folder
-alias cdc='cd C'
-
-# Run a freshly compiled binary
-alias run='./a.out'
-
-# Compile C with LLVM
-alias cwc='clang'
-
-# Compile C++ with LLVM
-alias cpp='clang++'
 
 #disk usage
 alias du='df -h'
@@ -84,21 +80,30 @@ alias vbm="sudo mount -t vboxsf -o rw,uid=1000,gid=1000 Public /home/$USER/Publi
 
 #youtube-dl
 alias ydl='youtube-dl'
-alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-alias yta-best="youtube-dl --extract-audio --audio-format best "
-alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+alias ydl-aac="youtube-dl --extract-audio --audio-format aac "
+alias ydl-best="youtube-dl --extract-audio --audio-format best "
+alias ydl-flac="youtube-dl --extract-audio --audio-format flac "
+alias ydl-m4a="youtube-dl --extract-audio --audio-format m4a "
+alias ydl-mp3="youtube-dl --extract-audio --audio-format mp3 "
+alias ydl-opus="youtube-dl --extract-audio --audio-format opus "
+alias ydl-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+alias ydl-wav="youtube-dl --extract-audio --audio-format wav "
+alias ydl-best="youtube-dl -f bestvideo+bestaudio "
 
 #Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -100"
 
 # For pkgbuilds
 alias mp='makepkg -si'
+
+# Compile ncurses C code with LLVM
+alias ncu='clang -lncurses'
+
+# Change directory to my C folder
+alias cdc='cd C'
+
+# Run a freshly compiled binary
+alias run='./a.out'
 
 # Pacman commands
 alias sps='sudo pacman -S'
