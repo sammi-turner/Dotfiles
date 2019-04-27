@@ -24,14 +24,6 @@ alias ll='ls -la'
 alias l='ls' 					
 alias l.="ls -A | egrep '^\.'"
 
-#xampp
-alias opt='cd /opt/lampp/'
-alias ht='sudo code /opt/lampp/htdocs/'
-alias panel='sudo ./manager-linux-x64.run'
-alias start='sudo /opt/lampp/lampp start'
-alias stop='sudo /opt/lampp/lampp stop'
-alias restart='sudo /opt/lampp/lampp restart'
-
 #ranger
 alias rr='ranger'
 alias rmu='ranger /run/media/user'   
