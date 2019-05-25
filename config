@@ -10,7 +10,7 @@ cursor_blink = system
 cursor_shape = block
 dynamic_title = true
 filter_unmatched_urls = true
-font = Ubuntu Mono 12
+font = Ubuntu Mono 14
 geometry = 900x650
 highlight = #2f2f2f
 icon_name = terminal
@@ -24,7 +24,7 @@ search_wrap = true
 urgent_on_bell = true
 
 [hints]
-#font = Ubuntu Mono 12
+#font = Ubuntu Mono 14
 #foreground = #dcdccc
 #background = #3f3f3f
 #active_foreground = #e68080
