@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Environment Variables
-PS1=' > '
+PS1=' \w \$ '
 RANGER_LOAD_DEFAULT_RC=FALSE
 EDITOR=nvim
 PAGER=nvim
@@ -22,14 +22,7 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
 alias l='ls' 					
-alias l.="ls -A | egrep '^\.'"
-
-#ranger
-alias rr='ranger'
-alias rmu='ranger /run/media/user'   
-
-#curse radio
-alias cur='curseradio'
+alias l.="ls -A | egrep '^\.'" 
 
 #git clone
 alias gcl='git clone'
@@ -103,9 +96,6 @@ alias spr='sudo pacman -R'
 alias up='sudo pacman -Syyu'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias list='pacman -Q > package_list.txt'
-
-# For system specs
-alias btw='echo;screenfetch;echo'
 
 # Start up with .xinitrc
 alias sx='startx'
