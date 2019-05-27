@@ -1,6 +1,6 @@
 # Dotfiles
 
-Simple set-ups for bash, neovim and termite.
+Simple set-ups for bash, neovim, termite and ranger.
 
 Please consult the relevant Arch Wiki page if you are a "first timer"
 
@@ -11,3 +11,7 @@ Please consult the relevant Arch Wiki page if you are a "first timer"
 ~/.config/nvim/init.vim
 
 ~/.config/termite/config
+
+~/.config/ranger/rc.conf
+
+~/.config/ranger/rifle.conf
