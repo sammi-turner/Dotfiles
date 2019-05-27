@@ -2,7 +2,7 @@
 
 Simple set-ups for bash, neovim, termite and ranger.
 
-Please consult the relevant Arch Wiki page if you are a "first timer"
+Please consult the relevant Arch Wiki page if you are a "first timer" on any of those applications.
 
 # correct file paths
 
