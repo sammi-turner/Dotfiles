@@ -17,6 +17,10 @@ if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
 
+# Ranger
+alias rr='ranger'
+alias rmu='ranger /run/media/user/'
+
 #list
 alias ls='ls --color=auto'
 alias la='ls -a'
@@ -81,6 +85,9 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -100"
 # For pkgbuilds
 alias mp='makepkg -si'
 
+# Use Make file
+alias mci='sudo make clean install'
+
 # Compile ncurses C code with LLVM
 alias ncu='clang -lncurses'
 
@@ -105,3 +112,6 @@ alias sn='sudo shutdown now'
 
 # Reboot from terminal
 alias sr='sudo reboot'
+
+# System information
+alias neo='neofetch'
