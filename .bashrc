@@ -115,3 +115,5 @@ alias sr='sudo reboot'
 
 # System information
 alias neo='neofetch'
+
+cd /home/user
