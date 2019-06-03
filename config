@@ -1,7 +1,6 @@
 # ~/.config/termite/config
 
 [options]
-#https://github.com/thestinger/termite/blob/master/config
 allow_bold = true
 audible_bell = false
 browser = xdg-open
@@ -10,7 +9,7 @@ cursor_blink = system
 cursor_shape = block
 dynamic_title = true
 filter_unmatched_urls = true
-font = Ubuntu Mono 14
+font = Mono 12
 geometry = 900x650
 highlight = #2f2f2f
 icon_name = terminal
@@ -24,7 +23,7 @@ search_wrap = true
 urgent_on_bell = true
 
 [hints]
-#font = Ubuntu Mono 14
+#font = Mono 12
 #foreground = #dcdccc
 #background = #3f3f3f
 #active_foreground = #e68080
@@ -35,8 +34,6 @@ urgent_on_bell = true
 #roundness = 2.0
 
 [colors]
-# https://critical.ch/xterm/
-#dracula theme adapted by Erik Dubois
 background = rgba(40, 42, 54, 0.8)
 
 # special
@@ -46,33 +43,33 @@ cursor          = #f8f8f2
 #background     = #282a36
 
 # black
-color0  = #000000
-color8  = #79A9FF
+color0  = #282a36
+color8  = #44475a
 
 # red
 color1  = #ff5555
-color9  = #ff6e67
+color9  = #ff5555
 
 # green
 color2  = #50fa7b
-color10 = #5af78e
+color10 = #50fa7b
 
 # yellow
 color3  = #f1fa8c
-color11 = #f4f99d
+color11 = #f1fa8c
 
 # blue
-color4  = #6790EB
-color12 = #79A9FF
+color4  = #bd93f9
+color12 = #bd93f9
 
 # magenta
 color5  = #ff79c6
-color13 = #ff92d0
+color13 = #ff79c6
 
 # cyan
 color6  = #8be9fd
-color14 = #9aedfe
+color14 = #8be9fd
 
 # white
-color7  = #bfbfbf
-color15 = #e6e6e6
+color7  = #bbbbbb
+color15 = #ffffff
