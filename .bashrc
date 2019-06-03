@@ -117,3 +117,4 @@ alias sr='sudo reboot'
 alias neo='neofetch'
 
 cd /home/user
+neo
