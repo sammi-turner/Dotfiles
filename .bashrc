@@ -17,6 +17,9 @@ if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
 
+# Can Haz Permissions?
+alias chp='sudo chmod -R 777'
+
 # Clear Out Old Man Pages
 alias omp='sudo rm -r /var/cache/man/oldlocal'
 
@@ -119,7 +122,7 @@ alias sn='sudo shutdown now'
 # Reboot from terminal
 alias sr='sudo reboot'
 
-# System Information
-alias neo='neofetch'
+# Screenfetch info
+alias btw='echo;screenfetch;echo'
 
-neo
+btw
