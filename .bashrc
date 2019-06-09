@@ -122,7 +122,10 @@ alias sn='sudo shutdown now'
 # Reboot from terminal
 alias sr='sudo reboot'
 
-# Screenfetch info
-alias btw='echo;screenfetch;echo'
+# Screenfetch
+alias btw='echo;screenfetch -c 04,04;echo'
+
+# Neofetch
+alias neo='echo;neofetch'
 
 btw
