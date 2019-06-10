@@ -127,5 +127,3 @@ alias btw='echo;screenfetch -c 04,04;echo'
 
 # Neofetch
 alias neo='echo;neofetch'
-
-btw
