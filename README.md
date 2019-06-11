@@ -1,8 +1,8 @@
 # Dotfiles
 
-Simple set-ups for bash, neovim and ranger.
+Simple set-ups for bash, neovim, ranger and termite.
 
-Gruvbox themes for Termite and Gedit.
+For Gedit, I use the gruvbox-dark theme created by Gordon Chiam : https://github.com/gchiam
 
 Please consult the relevant Arch Wiki page if you are a "first timer" on any of those applications.
 
