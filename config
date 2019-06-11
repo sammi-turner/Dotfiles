@@ -22,29 +22,18 @@ size_hints = false
 search_wrap = true
 urgent_on_bell = true
 
-[hints]
-#font = Mono 12
-#foreground = #dcdccc
-#background = #3f3f3f
-#active_foreground = #e68080
-#active_background = #3f3f3f
-#padding = 2
-#border = #3f3f3f
-#border_width = 10
-#roundness = 2.0
-
 [colors]
 background = rgba(40, 42, 54, 0.8)
 
 # special
-foreground      = #f8f8f2
-foreground_bold = #f8f8f2
-cursor          = #f8f8f2
-#background     = #282a36
+foreground      = #f68516
+foreground_bold = #f68516
+cursor          = #f68516
+#background     = #4c4c4c
 
 # black
-color0  = #282a36
-color8  = #44475a
+color0  = #282828
+color8  = #4c4c4c
 
 # red
 color1  = #ff5555
@@ -71,5 +60,5 @@ color6  = #8be9fd
 color14 = #8be9fd
 
 # white
-color7  = #bbbbbb
-color15 = #ffffff
+color7  = #f68516
+color15 = #dcdcdc
