@@ -22,6 +22,9 @@ size_hints = false
 search_wrap = true
 urgent_on_bell = true
 
+# Gruvbox Theme
+###############
+
 [colors]
 background = rgba(40, 42, 54, 0.8)
 
