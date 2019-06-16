@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Name:
+    Snazzy Amber by Sammi Turner
+    https://github.com/sammi-turner
+  Credits:
+    Derived from Base16 Gruvbox Dark by Gordon Chiam
+    https://github.com/gchiam
+-->
+
+<style-scheme id="snazzy-amber" _name="Snazzy Amber" version="1.0">
+  
+  <!-- Meta -->
+  <_description>Snazzy Amber</_description>
+
+  <!-- Palette -->
+  <color name="c00" value="#4c4c4c"/>
+  <color name="c01" value="#504945"/>
+  <color name="c02" value="#7c6f54"/>
+  <color name="c03" value="#f68516"/>
+  <color name="c04" value="#bdae93"/>
+  <color name="c05" value="#d5c4a1"/>
+  <color name="c06" value="#f68516"/>
+  <color name="c07" value="#fbf1c7"/>
+  <color name="c08" value="#cc241d"/>
+  <color name="c09" value="#d65d14"/>
+  <color name="c10" value="#d79921"/>
+  <color name="c11" value="#98971a"/>
+  <color name="c12" value="#689d6a"/>
+  <color name="c13" value="#458588"/>
+  <color name="c14" value="#b16286"/>
+  <color name="c15" value="#a89984"/>
+
+  <!-- Styles -->
+  <style name="bracket-match" background="c01" bold="true"/>
+  <style name="bracket-mismatch" background="c01" underline="true"/>
+  <style name="css:at-rules" foreground="c14"/>
+  <style name="css:color" foreground="c05"/>
+  <style name="css:keyword" foreground="c10"/>
+  <style name="current-line" background="c01"/>
+  <style name="cursor" foreground="c03"/>
+  <style name="def:c-n-integer" foreground="c09"/>
+  <style name="def:boolean" foreground="c09"/>
+  <style name="def:builtin" foreground="c09"/>
+  <style name="def:character" foreground="c09"/>
+  <style name="def:comment" foreground="c4"/>
+  <style name="def:complex" foreground="c9"/>
+  <style name="def:decimal" foreground="c09"/>
+  <style name="def:doc-comment" foreground="c04"/>
+  <style name="def:doc-comment-element" foreground="c04"/>
+  <style name="def:error" foreground="c07" background="c08"/>
+  <style name="def:floating-point" foreground="c09"/>
+  <style name="def:function" foreground="c13"/>
+  <style name="def:identifier" foreground="c08"/>
+  <style name="def:keyword" foreground="c14"/>
+  <style name="def:note" foreground="c04"/>
+  <style name="def:number" foreground="c09"/>
+  <style name="def:operator" foreground="c11"/>
+  <style name="def:preprocessor" foreground="c09"/>
+  <style name="def:reserved" foreground="c14"/>
+  <style name="def:shebang" foreground="c04"/>
+  <style name="def:special-char" foreground="c09"/>
+  <style name="def:special-constant" foreground="c09"/>
+  <style name="def:statement" foreground="c14"/>
+  <style name="def:string" foreground="c11"/>
+  <style name="def:type" foreground="c10"/>
+  <style name="draw-spaces" foreground="c02"/>
+  <style name="html:dtd" foreground="c11"/>
+  <style name="html:tag" foreground="c08"/>
+  <style name="js:function" foreground="c13"/>
+  <style name="line-numbers" foreground="c06" background="c01"/>
+  <style name="perl:builtin" foreground="c13"/>
+  <style name="perl:include-statement" foreground="c14"/>
+  <style name="perl:special-variable" foreground="c09"/>
+  <style name="perl:variable" foreground="c08"/>
+  <style name="php:string" foreground="c11"/>
+  <style name="python:builtin-constant" foreground="c14"/>
+  <style name="python:builtin-function" foreground="c13"/>
+  <style name="python:module-handler" foreground="c14"/>
+  <style name="python:special-variable" foreground="c14"/>
+  <style name="ruby:attribute-definition" foreground="c14"/>
+  <style name="ruby:builtin" foreground="c08"/>
+  <style name="ruby:class-variable" foreground="c08"/>
+  <style name="ruby:constant" foreground="c08"/>
+  <style name="ruby:global-variable" foreground="c13"/>
+  <style name="ruby:instance-variable" foreground="c08"/>
+  <style name="ruby:module-handler" foreground="c14"/>
+  <style name="ruby:predefined-variable" foreground="c09"/>
+  <style name="ruby:regex" foreground="c08"/>
+  <style name="ruby:special-variable" foreground="c14"/>
+  <style name="ruby:symbol" foreground="c11"/>
+  <style name="rubyonrails:attribute-definition" foreground="c14"/>
+  <style name="rubyonrails:block-parameter" foreground="c09"/>
+  <style name="rubyonrails:builtin" foreground="c08"/>
+  <style name="rubyonrails:class-inherit" foreground="c11"/>
+  <style name="rubyonrails:class-name" foreground="c10"/>
+  <style name="rubyonrails:class-variable" foreground="c08"/>
+  <style name="rubyonrails:complex-interpolation" foreground="c09"/>
+  <style name="rubyonrails:constant" foreground="c08"/>
+  <style name="rubyonrails:global-variable" foreground="c13"/>
+  <style name="rubyonrails:instance-variable" foreground="c08"/>
+  <style name="rubyonrails:module-handler" foreground="c14"/>
+  <style name="rubyonrails:module-name" foreground="c10"/>
+  <style name="rubyonrails:predefined-variable" foreground="c09"/>
+  <style name="rubyonrails:rails" foreground="c08"/>
+  <style name="rubyonrails:regex" foreground="c08"/>
+  <style name="rubyonrails:simple-interpolation" foreground="c09"/>
+  <style name="rubyonrails:special-variable" foreground="c14"/>
+  <style name="rubyonrails:symbol" foreground="c11"/>
+  <style name="search-match" background="c01" bold="true" underline="true"/>
+  <style name="selection" foreground="c06" background="c02"/>
+  <style name="text" foreground="c06" background="c00"/>
+  <style name="xml:attribute-name" foreground="c08"/>
+  <style name="xml:doctype" foreground="c08"/>
+  <style name="xml:element-name" foreground="c08"/>
+  <style name="xml:namespace" foreground="c08"/>
+  <style name="xml:tag" foreground="c08"/>
+  
+</style-scheme>
