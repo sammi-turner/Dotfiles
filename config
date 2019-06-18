@@ -35,7 +35,7 @@ cursor          = #f68516
 #background     = #4c4c4c
 
 # black
-color0  = #282828
+color0  = #333333
 color8  = #4c4c4c
 
 # red
