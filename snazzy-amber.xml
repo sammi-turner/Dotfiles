@@ -15,8 +15,8 @@
   <_description>Snazzy Amber</_description>
 
   <!-- Palette -->
-  <color name="c00" value="#4c4c4c"/>
-  <color name="c01" value="#504945"/>
+  <color name="c00" value="#282828"/>
+  <color name="c01" value="#282828"/>
   <color name="c02" value="#7c6f54"/>
   <color name="c03" value="#f68516"/>
   <color name="c04" value="#bdae93"/>
