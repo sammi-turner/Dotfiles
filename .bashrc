@@ -6,12 +6,10 @@
 # Environment Variables
 PS1=' \w \$ '
 RANGER_LOAD_DEFAULT_RC=FALSE
-EDITOR=nvim
-PAGER=nvim
-TERM=termite
-export VISUAL EDITOR=nvim
+EDITOR=vim
+PAGER=vim
+export VISUAL EDITOR=vim
 export EDITOR
-export TERM
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
