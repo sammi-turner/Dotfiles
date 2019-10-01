@@ -6,8 +6,9 @@ For Gedit, I use created the Snazzy Amber theme which I derived from the Base 16
 
 Please consult the relevant Arch Wiki page if you are a "first timer" on any of those applications.
 
-# correct file paths
+Correct file paths :
 
+```
 ~/.bashrc
 
 ~/.vimrc
@@ -15,3 +16,5 @@ Please consult the relevant Arch Wiki page if you are a "first timer" on any of 
 ~/.config/ranger/rc.conf
 
 ~/.config/ranger/rifle.conf
+
+```
