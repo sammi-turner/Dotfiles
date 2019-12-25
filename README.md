@@ -1,4 +1,4 @@
-# Dotfiles
+# Arcolinux Dotfiles
 
 Simple set-ups for bash, vim and ranger.
 
