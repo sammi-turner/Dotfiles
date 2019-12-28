@@ -120,8 +120,14 @@ alias sn='sudo shutdown now'
 # Reboot from terminal
 alias sr='sudo reboot'
 
-# Screenfetch
-alias btw='echo;screenfetch -c 04,04;echo'
-
 # Neofetch
 alias neo='echo;neofetch'
+
+# Create dotnet project folder
+alias dnc='dotnet new console -o'
+
+# Dotnet run
+alias dr='dotnet run'
+
+# Reload this file
+alias sb='source .bashrc'
