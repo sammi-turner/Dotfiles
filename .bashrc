@@ -131,3 +131,14 @@ alias dr='dotnet run'
 
 # Reload this file
 alias sb='source .bashrc'
+
+# Function to compile Kotlin, from the command line
+# To compile "example.kt" enter "ckt example"
+ckt() { kotlinc *.kt -include-runtime -d "$1".jar; }
+export -f ckt
+
+# Function to run Java bytecode in the JVM, from the command line
+# To run "example.jar" enter "rkt example"
+rkt() { java -jar "$1".jar; }
+export -f rkt
+
