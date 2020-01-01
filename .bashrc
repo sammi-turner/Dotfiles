@@ -123,12 +123,6 @@ alias sr='sudo reboot'
 # Neofetch
 alias neo='echo;neofetch'
 
-# Create dotnet project folder
-alias dnc='dotnet new console -o'
-
-# Dotnet run
-alias dr='dotnet run'
-
 # Reload this file
 alias sb='source .bashrc'
 
