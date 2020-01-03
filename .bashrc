@@ -133,7 +133,7 @@ alias sn='sudo shutdown now'
 alias sr='sudo reboot'
 
 # Neofetch
-alias neo='echo;echo;neofetch'
+alias neo='echo;neofetch;echo'
 
 # Reload this file
 alias sb='source .bashrc'
@@ -147,5 +147,3 @@ export -f ckt
 # To run "example.jar" enter "rkt example"
 rkt() { java -jar "$1".jar; }
 export -f rkt
-
-neo
