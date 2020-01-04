@@ -84,10 +84,10 @@ alias chp='chmod -R 777'
 alias rr='ranger'
 alias rs='sudo ranger'
 
-# apt commands (Ubuntu-based distros)
+# apt aliases (Ubuntu-based distros)
 alias ai='sudo apt install'
-alias ri='sudo apt remove'
-alias pu='sudo apt purge'
+alias rem='sudo apt remove'
+alias pur='sudo apt purge'
 alias upd='sudo apt update'
 alias upg='sudo apt upgrade'
 alias aar='sudo apt autoremove'
@@ -133,7 +133,7 @@ alias sn='sudo shutdown now'
 alias sr='sudo reboot'
 
 # Neofetch
-alias neo='echo;neofetch;echo'
+alias neo='echo;neofetch'
 
 # Reload this file
 alias sb='source .bashrc'
