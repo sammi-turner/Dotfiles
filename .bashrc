@@ -72,7 +72,7 @@ alias chp='chmod -R 777'
 alias rr='ranger'
 alias rs='sudo ranger'
 
-# apt aliases (Debian/Ubuntu-based distros)
+# apt commands (Debian/Ubuntu-based distros)
 alias ai='sudo apt install'
 alias rem='sudo apt remove'
 alias pur='sudo apt purge'
