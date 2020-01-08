@@ -10,7 +10,12 @@ EDITOR=vim
 PAGER=vim
 export VISUAL EDITOR=vim
 export EDITOR
+
+# For pip installs
 export PATH="/usr/local/lib/python3.6/dist-packages:$PATH"
+
+# For programming in Go
+export PATH=$PATH:/usr/local/go/bin
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
@@ -66,7 +71,7 @@ if ! shopt -oq posix; then
 fi
 
 # Can Haz Permissions?
-alias chp='chmod -R 777'
+alias chp='sudo chmod -R 777'
 
 # Ranger
 alias rr='ranger'
