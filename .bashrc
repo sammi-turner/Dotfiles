@@ -14,9 +14,6 @@ export EDITOR
 # For pip installs
 export PATH="/usr/local/lib/python3.6/dist-packages:$PATH"
 
-# For programming in Go
-export PATH=$PATH:/usr/local/go/bin
-
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
