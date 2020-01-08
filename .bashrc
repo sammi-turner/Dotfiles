@@ -92,6 +92,9 @@ alias up='sudo pacman -Syyu'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias list='pacman -Q > package_list.txt'
 
+# For pkgbuilds from the Arch user repository
+alias mp='makepkg -si'
+
 # YouTube Downloader
 alias ydl='youtube-dl'
 alias ydl-aac="youtube-dl --extract-audio --audio-format aac "
