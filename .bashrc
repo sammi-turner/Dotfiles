@@ -119,6 +119,28 @@ alias cdc='cd C'
 # Run a freshly compiled binary
 alias run='./a.out'
 
+# React
+alias cra='npx create-react-app'
+
+# Svelte
+alias sve='npx degit sveltejs/template'
+
+# Vue
+alias vcr='vue create'
+
+# Yarn
+alias yse='yarn serve'
+alias yst='yarn start'
+alias yde='yarn dev'
+alias yin='yarn install'
+alias ybu='yarn build'
+
+# NPM
+alias ns='npm start'
+alias ni='npm install'
+alias nrd='npm run dev'
+alias nrb='npm run build'
+
 # Start up with .xinitrc
 alias sx='startx'
 
@@ -133,15 +155,5 @@ alias neo='neofetch'
 
 # Reload this file
 alias sb='source .bashrc'
-
-# Function to compile Kotlin, from the command line
-# To compile "example.kt" enter "ckt example"
-ckt() { kotlinc *.kt -include-runtime -d "$1".jar; }
-export -f ckt
-
-# Function to run Java bytecode in the JVM, from the command line
-# To run "example.jar" enter "rkt example"
-rkt() { java -jar "$1".jar; }
-export -f rkt
 
 xrdb ~/.Xresources
