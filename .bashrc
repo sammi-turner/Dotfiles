@@ -129,17 +129,18 @@ alias sve='npx degit sveltejs/template'
 alias vcr='vue create'
 
 # Yarn
-alias yse='yarn serve'
-alias yst='yarn start'
-alias yde='yarn dev'
 alias yin='yarn install'
+alias yst='yarn start'
+alias yse='yarn serve'
+alias yde='yarn dev'
 alias ybu='yarn build'
 
 # NPM
-alias ns='npm start'
-alias ni='npm install'
-alias nrd='npm run dev'
-alias nrb='npm run build'
+alias nin='npm install'
+alias nst='npm start'
+alias nse='npm run serve'
+alias nde='npm run dev'
+alias nbu='npm run build'
 
 # Start up with .xinitrc
 alias sx='startx'
