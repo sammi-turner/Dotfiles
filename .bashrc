@@ -129,7 +129,6 @@ alias sve='npx degit sveltejs/template'
 alias vcr='vue create'
 
 # Yarn
-alias yin='yarn install'
 alias yst='yarn start'
 alias yse='yarn serve'
 alias yde='yarn dev'
