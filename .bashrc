@@ -119,27 +119,28 @@ alias cdc='cd C'
 # Run a freshly compiled binary
 alias run='./a.out'
 
-# React
-alias cra='npx create-react-app'
-
-# Svelte
-alias sve='npx degit sveltejs/template'
-
-# Vue
-alias vcr='vue create'
-
 # Yarn
+alias yi='yarn init'
+alias yn='yarn'
+alias yan='yarn add nodemon'
+alias yae='yarn add express'
 alias yst='yarn start'
 alias yse='yarn serve'
 alias yde='yarn dev'
 alias ybu='yarn build'
 
 # NPM
+alias ni='npm init'
 alias nin='npm install'
+alias nnm='npm install nodemon'
+alias nie='npm install express'
 alias nst='npm start'
 alias nse='npm run serve'
 alias nde='npm run dev'
 alias nbu='npm run build'
+
+# Node Monitor
+alias nm='nodemon index.js'
 
 # Start up with .xinitrc
 alias sx='startx'
