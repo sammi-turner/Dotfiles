@@ -104,8 +104,9 @@ alias ydl-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias ydl-wav="youtube-dl --extract-audio --audio-format wav "
 alias ydl-best="youtube-dl -f bestvideo+bestaudio "
 
-# Cloning a repo
+# Clone a repo
 alias gcl='git clone'
+alias nd='npx degit'
 
 # Use Make File
 alias mci='sudo make clean install'
