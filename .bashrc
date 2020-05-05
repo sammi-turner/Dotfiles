@@ -151,10 +151,11 @@ alias sn='sudo shutdown now'
 # Reboot from terminal
 alias sr='sudo reboot'
 
-# Neofetch
-alias neo='neofetch'
+# Pfetch
+alias pf='pfetch'
 
 # Reload this file
 alias sb='source .bashrc'
 
 xrdb ~/.Xresources
+echo;pf
