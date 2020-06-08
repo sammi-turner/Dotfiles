@@ -152,11 +152,5 @@ alias sn='sudo shutdown now'
 # Reboot from terminal
 alias sr='sudo reboot'
 
-# Pfetch
-alias pf='pfetch'
-
 # Reload this file
 alias sb='source .bashrc'
-
-xrdb ~/.Xresources
-echo;pf
