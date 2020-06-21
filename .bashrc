@@ -70,6 +70,9 @@ fi
 # Can Haz Permissions?
 alias chp='sudo chmod -R 777'
 
+# Python
+alias p3='python3 app.py'
+
 # Ranger
 alias rr='ranger'
 alias rs='sudo ranger'
@@ -154,3 +157,14 @@ alias sr='sudo reboot'
 
 # Reload this file
 alias sb='source .bashrc'
+
+# Neofetch
+alias neo='neofetch'
+
+# Deno
+alias dc='deno cache'
+alias dr='deno run -q'
+alias dra='deno run -A -q'
+alias dft='deno fmt'
+export DENO_INSTALL="/home/$USER/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
