@@ -70,7 +70,7 @@ fi
 # Can Haz Permissions?
 alias chp='sudo chmod -R 777'
 
-# Python
+# Python3
 alias p3='python3 app.py'
 
 # Ranger
@@ -113,15 +113,6 @@ alias nd='npx degit'
 
 # Use Make File
 alias mci='sudo make clean install'
-
-# Compile ncurses C code with LLVM
-alias ncu='clang -lncurses'
-
-# Change directory to my C folder
-alias cdc='cd C'
-
-# Run a freshly compiled binary
-alias run='./a.out'
 
 # Yarn
 alias yi='yarn init'
