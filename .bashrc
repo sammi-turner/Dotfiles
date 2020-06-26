@@ -159,3 +159,12 @@ alias dra='deno run -A -q'
 alias dft='deno fmt'
 export DENO_INSTALL="/home/$USER/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+# MongoDB
+alias mstatus='sudo systemctl status mongodb'
+alias mstop='sudo systemctl stop mongodb'
+alias mstart='sudo systemctl start mongodb'
+alias mrestart='sudo systemctl restart mongodb'
+alias mdisable='sudo systemctl disable mongodb'
+alias menable='sudo systemctl enable mongodb'
+alias mgo='mongo'
