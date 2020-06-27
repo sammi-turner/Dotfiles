@@ -98,7 +98,6 @@ alias mp='makepkg -si'
 # YouTube Downloader
 alias ydl='youtube-dl'
 alias ydl-aac="youtube-dl --extract-audio --audio-format aac "
-alias ydl-best="youtube-dl --extract-audio --audio-format best "
 alias ydl-flac="youtube-dl --extract-audio --audio-format flac "
 alias ydl-m4a="youtube-dl --extract-audio --audio-format m4a "
 alias ydl-mp3="youtube-dl --extract-audio --audio-format mp3 "
