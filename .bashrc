@@ -10,9 +10,8 @@ EDITOR=vim
 PAGER=vim
 export VISUAL EDITOR=vim
 export EDITOR
-
-# For pip installs
-export PATH="/usr/local/lib/python3.6/dist-packages:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.local/lib:$PATH"
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
@@ -71,7 +70,7 @@ fi
 alias chp='sudo chmod -R 777'
 
 # Python3
-alias p3='python3 app.py'
+alias pa='python app.py'
 
 # Ranger
 alias rr='ranger'
