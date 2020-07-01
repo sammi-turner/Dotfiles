@@ -12,6 +12,7 @@ export VISUAL EDITOR=vim
 export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
