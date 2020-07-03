@@ -70,7 +70,7 @@ fi
 # Can Haz Permissions?
 alias chp='sudo chmod -R 777'
 
-# Python3
+# Python
 alias pa='python app.py'
 
 # Ranger
