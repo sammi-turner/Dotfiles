@@ -93,7 +93,7 @@ alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias list='pacman -Q > package_list.txt'
 
 # For pkgbuilds from the Arch user repository
-alias mp='makepkg -si'
+alias mp='makepkg -sirc'
 
 # YouTube Downloader
 alias ydl='youtube-dl'
