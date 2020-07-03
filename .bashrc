@@ -151,6 +151,12 @@ alias sb='source .bashrc'
 # Neofetch
 alias neo='neofetch'
 
+# Mono build
+alias mb='csc *.cs'
+
+# Mono run
+alias mr='mono Program.exe'
+
 # Deno
 alias dc='deno cache'
 alias dr='deno run -q'
