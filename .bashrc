@@ -162,3 +162,14 @@ alias dra='deno run -A -q'
 alias dft='deno fmt'
 export DENO_INSTALL="/home/$USER/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+# Haskell
+alias srg='stack runghc Program.hs'
+alias sg='stack ghc Program.hs'
+alias tp='touch Program.hs'
+
+# Dotnet
+alias dnr='dotnet run'
+
+# Blazor
+alias bsa='dotnet new blazorserver -o'
