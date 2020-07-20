@@ -67,12 +67,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Can Haz Permissions?
-alias chp='sudo chmod -R 777'
+# Change ownership from root to user
+alias cho='sudo chown -R $USER'
 
 # Mono
 alias mb='csc *.cs'
 alias mr='mono Program.exe'
+
+# F Sharp Interactive
+alias fsr='dotnet fsi'
 
 # Python
 alias pa='python app.py'
@@ -173,3 +176,4 @@ alias dnr='dotnet run'
 
 # Blazor
 alias bsa='dotnet new blazorserver -o'
+alias wsm='dotnet new wasm -o'
