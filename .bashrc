@@ -13,6 +13,8 @@ export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:$HOME/go/bin"
+export PATH="/home/$USER/.deno/bin:$PATH"
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
@@ -79,6 +81,11 @@ alias fsr='dotnet fsi'
 
 # Python
 alias pa='python app.py'
+
+# Go
+alias gr='go run'
+alias gb='go build'
+alias gf='go fmt'
 
 # Ranger
 alias rr='ranger'
@@ -163,8 +170,6 @@ alias dc='deno cache'
 alias dr='deno run -q'
 alias dra='deno run -A -q'
 alias dft='deno fmt'
-export DENO_INSTALL="/home/$USER/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
 
 # Haskell
 alias srg='stack runghc Program.hs'
