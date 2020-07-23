@@ -83,9 +83,10 @@ alias fsr='dotnet fsi'
 alias pa='python app.py'
 
 # Go
-alias gr='go run'
 alias gb='go build'
 alias gf='go fmt'
+alias gg='go get'
+alias gr='go run'
 
 # Ranger
 alias rr='ranger'
