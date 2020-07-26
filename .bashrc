@@ -13,8 +13,8 @@ export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$PATH:$HOME/go/bin"
 export PATH="/home/$USER/.deno/bin:$PATH"
+export GOPATH="$HOME/go"
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
