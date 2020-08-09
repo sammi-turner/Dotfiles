@@ -76,9 +76,6 @@ alias cho='sudo chown -R $USER'
 alias mb='csc *.cs'
 alias mr='mono Program.exe'
 
-# F Sharp Interactive
-alias fsr='dotnet fsi'
-
 # Python
 alias pa='python app.py'
 
@@ -87,18 +84,15 @@ alias gb='go build'
 alias gf='go fmt'
 alias gg='go get'
 alias gr='go run'
+alias grm='go run main.go'
+
+# Monkey
+alias repl='$GOPATH/bin/monkey-interpreter'
+alias script='$GOPATH/bin/monkey-interpreter script.monkey'
 
 # Ranger
 alias rr='ranger'
 alias rs='sudo ranger'
-
-# apt commands (Debian/Ubuntu-based distros)
-alias ai='sudo apt install'
-alias rem='sudo apt remove'
-alias pur='sudo apt purge'
-alias upd='sudo apt update'
-alias upg='sudo apt upgrade'
-alias aar='sudo apt autoremove'
 
 # pacman commands (Arch-based distros)
 alias sps='sudo pacman -S'
@@ -171,11 +165,6 @@ alias dc='deno cache'
 alias dr='deno run -q'
 alias dra='deno run -A -q'
 alias dft='deno fmt'
-
-# Haskell
-alias srg='stack runghc Program.hs'
-alias sg='stack ghc Program.hs'
-alias tp='touch Program.hs'
 
 # Dotnet
 alias dnr='dotnet run'
