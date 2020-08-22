@@ -13,7 +13,14 @@ export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="/home/$USER/.deno/bin:$PATH"
+
+# Deno Environment Variable
+export PATH="$HOME/.deno/bin:$PATH"
+
+# Rust Environment Variable
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Go Environment Variable
 export GOPATH="$HOME/go"
 
 if [ -d "$HOME/.bin" ] ;
@@ -85,6 +92,7 @@ alias gf='go fmt'
 alias gg='go get'
 alias gr='go run'
 alias grm='go run main.go'
+alias my-repl='cd go/src/my-repl && go run main.go help.go'
 
 # Monkey
 alias repl='$GOPATH/bin/monkey-interpreter'
@@ -168,6 +176,7 @@ alias dft='deno fmt'
 
 # Dotnet
 alias dnr='dotnet run'
+alias monkey='dotnet run -p Monkey.Cli'
 
 # Blazor
 alias bsa='dotnet new blazorserver -o'
