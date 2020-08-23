@@ -94,6 +94,7 @@ alias gr='go run'
 alias grm='go run main.go'
 
 # Rust
+alias new='cargo new'
 alias init='cargo init'
 alias build='cargo build'
 alias check='cargo check'
