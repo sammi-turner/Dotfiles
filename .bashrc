@@ -92,7 +92,12 @@ alias gf='go fmt'
 alias gg='go get'
 alias gr='go run'
 alias grm='go run main.go'
-alias my-repl='cd go/src/my-repl && go run main.go help.go'
+
+# Rust
+alias init='cargo init'
+alias build='cargo build'
+alias check='cargo check'
+alias run='cargo run'
 
 # Monkey
 alias repl='$GOPATH/bin/monkey-interpreter'
@@ -176,7 +181,6 @@ alias dft='deno fmt'
 
 # Dotnet
 alias dnr='dotnet run'
-alias monkey='dotnet run -p Monkey.Cli'
 
 # Blazor
 alias bsa='dotnet new blazorserver -o'
