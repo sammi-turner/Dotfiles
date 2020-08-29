@@ -6,9 +6,9 @@
 # Environment Variables
 PS1=' \w \$ '
 RANGER_LOAD_DEFAULT_RC=FALSE
-EDITOR=vim
-PAGER=vim
-export VISUAL EDITOR=vim
+EDITOR=nvim
+PAGER=nvim
+export VISUAL EDITOR=nvim
 export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
@@ -94,7 +94,6 @@ alias gr='go run'
 alias grm='go run main.go'
 
 # Rust
-alias new='cargo new'
 alias init='cargo init'
 alias build='cargo build'
 alias check='cargo check'
