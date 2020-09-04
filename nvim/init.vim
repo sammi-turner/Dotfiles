@@ -1,5 +1,30 @@
 " ~/.config/nvim/init.vim
 
+" PLUG INS
+"
+" For plug-in instructions, visit: 'vim.org/scripts/script.php?script_id=4828'
+" On Arch-based distros, install the AUR package 'vim-plug'
+" Don't forget to call :PlugInstall after adding new plug-ins to your config!
+
+call plug#begin('~/.vim/plugged')
+
+" Dracula Theme
+  Plug 'dracula/vim', { 'as': 'dracula' }
+
+" C Sharp support
+  Plug 'OmniSharp/omnisharp-vim'
+
+" Conquer of Completion
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
+
+" Termguicolors
+set termguicolors
+
+" Colorscheme
+colorscheme dracula
+
 " Don't try to be vi compatible
 set nocompatible
 
