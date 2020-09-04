@@ -6,7 +6,7 @@
 " On Arch-based distros, install the AUR package 'vim-plug'
 " Don't forget to call :PlugInstall after adding new plug-ins to your config!
 
-call plug#begin('~/.vim/plugged')
+  call plug#begin('~/.vim/plugged')
 
 " Dracula Theme
   Plug 'dracula/vim', { 'as': 'dracula' }
@@ -14,97 +14,97 @@ call plug#begin('~/.vim/plugged')
 " C Sharp support
   Plug 'OmniSharp/omnisharp-vim'
 
-" Conquerer of Completion
+" Conquer of Completion
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-call plug#end()
+  call plug#end()
 
 " Termguicolors
-set termguicolors
+  set termguicolors
 
 " Colorscheme
-colorscheme dracula
+  colorscheme dracula
 
 " Don't try to be vi compatible
-set nocompatible
+  set nocompatible
 
 " Helps force plugins to load correctly when it is turned back on below
-filetype off
+  filetype off
 
 " Turn on syntax highlighting
-syntax on
+  syntax on
 
 " For plugins to load correctly
-filetype plugin indent on
+  filetype plugin indent on
 
 " let mapleader = ","
 
 " Security
-set modelines=0
+  set modelines=0
 
 " Show line numbers
-set number
+  set number
 
 " Show file stats
-set ruler
+  set ruler
 
 " Encoding
-set encoding=utf-8
+  set encoding=utf-8
 
 " Whitespace
-set wrap
-set textwidth=79
-set formatoptions=tcqrn1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
-set noshiftround
+  set wrap
+  set textwidth=79
+  set formatoptions=tcqrn1
+  set tabstop=2
+  set shiftwidth=2
+  set softtabstop=2
+  set expandtab
+  set noshiftround
 
 " Cursor motion
-set scrolloff=3
-set backspace=indent,eol,start
-set matchpairs+=<:> " use % to jump between pairs
-runtime! macros/matchit.vim
+  set scrolloff=3
+  set backspace=indent,eol,start
+  set matchpairs+=<:> " use % to jump between pairs
+  runtime! macros/matchit.vim
 
 " Move up/down editor lines
-nnoremap j gj
-nnoremap k gk
+  nnoremap j gj
+  nnoremap k gk
 
 " Allow hidden buffers
-set hidden
+  set hidden
 
 " Rendering
-set ttyfast
+  set ttyfast
 
 " Status bar
-set laststatus=2
+  set laststatus=2
 
 " Last line
-set showmode
-set showcmd
+  set showmode
+  set showcmd
 
 " Searching
-nnoremap / /\v
-vnoremap / /\v
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
-set showmatch
-map <leader><space> :let @/=''<cr> " clear search
+  nnoremap / /\v
+  vnoremap / /\v
+  set hlsearch
+  set incsearch
+  set ignorecase
+  set smartcase
+  set showmatch
+  map <leader><space> :let @/=''<cr> " clear search
 
 " Remap help key.
-inoremap <F1> <ESC>:set invfullscreen<CR>a
-nnoremap <F1> :set invfullscreen<CR>
-vnoremap <F1> :set invfullscreen<CR>
+  inoremap <F1> <ESC>:set invfullscreen<CR>a
+  nnoremap <F1> :set invfullscreen<CR>
+  vnoremap <F1> :set invfullscreen<CR>
 
 " Formatting
-map <leader>q gqip
+  map <leader>q gqip
 
 " Visualize tabs and newlines
-set listchars=tab:▸\ ,eol:¬
+  set listchars=tab:▸\ ,eol:¬
 " Uncomment this to enable by default:
 " set list " To enable by default
 " Or use your leader key + l to toggle on/off
-map <leader>l :set list!<CR> " Toggle tabs and EOL
+  map <leader>l :set list!<CR> " Toggle tabs and EOL
