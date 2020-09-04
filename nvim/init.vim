@@ -14,7 +14,7 @@ call plug#begin('~/.vim/plugged')
 " C Sharp support
   Plug 'OmniSharp/omnisharp-vim'
 
-" Conquer of Completion
+" Conquerer of Completion
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
