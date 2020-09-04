@@ -13,6 +13,7 @@ export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
 # Deno Environment Variable
 export PATH="$HOME/.deno/bin:$PATH"
@@ -45,17 +46,6 @@ shopt -s checkwinsize
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
 shopt -s globstar
-
-# enable color support of ls and also add handy aliases
-if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-    alias dir='dir --color=auto'
-    alias vdir='vdir --color=auto'
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
-fi
 
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
@@ -94,6 +84,7 @@ alias gr='go run'
 alias grm='go run main.go'
 
 # Rust
+alias new='cargo new'
 alias init='cargo init'
 alias build='cargo build'
 alias check='cargo check'
@@ -106,6 +97,7 @@ alias script='$GOPATH/bin/monkey-interpreter script.monkey'
 # Ranger
 alias rr='ranger'
 alias rs='sudo ranger'
+alias repo='ranger Repos'
 
 # pacman commands (Arch-based distros)
 alias sps='sudo pacman -S'
