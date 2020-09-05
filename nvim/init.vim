@@ -12,7 +12,9 @@
   Plug 'dracula/vim', { 'as': 'dracula' }
 
 " C Sharp support
+" Use :OmniSharpInstall to apply changes.
   Plug 'OmniSharp/omnisharp-vim'
+  let g:OmniSharp_server_use_mono = 1
 
 " Conquerer of Completion
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
