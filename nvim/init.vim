@@ -8,6 +8,8 @@
 
 call plug#begin('~/.vim/plugged')
 
+" Dev environment
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -15,7 +17,23 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'dracula/vim', { 'as': 'dracula' }
+
+" C Sharp
 Plug 'OmniSharp/omnisharp-vim'
+
+" JavaScript and Node run-time
+Plug 'pangloss/vim-javascript'
+Plug 'moll/vim-node'
+
+" Mark-up
+Plug 'mattn/emmet-vim'
+Plug 'skammer/vim-css-color'
+
+" Python
+Plug 'davidhalter/jedi'
+
+" Go
+Plug 'fatih/vim-go'
 
 " Initialize plugin system
 call plug#end()
@@ -25,24 +43,10 @@ nmap <C-n> :NERDTreeToggle<CR>
 vmap ++ <plug>NERDCommenterToggle
 nmap ++ <plug>NERDCommenterToggle
 
-" open NERDTree automatically
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * NERDTree
+" Deoplete
+let g:deoplete#enable_at_startup = 1
 
-let g:NERDTreeGitStatusWithFlags = 1
-"let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-"let g:NERDTreeGitStatusNodeColorization = 1
-"let g:NERDTreeColorMapCustom = {
-    "\ "Staged"    : "#0ee375",  
-    "\ "Modified"  : "#d9bf91",  
-    "\ "Renamed"   : "#51C9FC",  
-    "\ "Untracked" : "#FCE77C",  
-    "\ "Unmerged"  : "#FC51E6",  
-    "\ "Dirty"     : "#FFBD61",  
-    "\ "Clean"     : "#87939A",   
-    "\ "Ignored"   : "#808080"   
-    "\ }                         
-
+" ignore node modules
 let g:NERDTreeIgnore = ['^node_modules$']
 
 " ctrlp
