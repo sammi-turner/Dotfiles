@@ -9,13 +9,10 @@
 call plug#begin('~/.vim/plugged')
 
 " Dev environment
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'scrooloose/nerdcommenter'
 Plug 'dracula/vim', { 'as': 'dracula' }
 
 " C Sharp
