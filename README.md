@@ -4,7 +4,7 @@ Package management aliases are included for both pacman (Arch) and apt (Debian/U
 
 # .config/nvim
 
-Uses vim-plug and a dracula theme by default.
+Uses vim-plug and the dracula theme by default.
 
 # .config/vifm
 
