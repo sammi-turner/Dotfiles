@@ -1,6 +1,6 @@
 # .bashrc
 
-Contains package management aliases are included for both pacman (Arch) and apt (Debian/Ubuntu).
+Package management aliases are included for both pacman (Arch) and apt (Debian/Ubuntu).
 
 # .config/nvim
 
