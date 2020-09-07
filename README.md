@@ -8,8 +8,8 @@ Uses vim-plug and a dracula theme by default.
 
 # .config/vifm
 
-A dual pane config with Uberzug image previews.
+A dual pane config with [Uberzug image previews](https://github.com/cirala/vifmimg).
 
 # .config/ranger
 
-Set to open a single panel with no image previews.
+A single pane config with no image previews.
