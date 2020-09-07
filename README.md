@@ -2,7 +2,7 @@
 
 Contains package management aliases are included for both pacman (Arch) and apt (Debian/Ubuntu).
 
-# .config/init.vim
+# .config/nvim
 
 Uses vim-plug and a dracula theme by default.
 
