@@ -214,20 +214,6 @@ fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
         \ vifmimg clear
         " \ ffprobe -pretty %c 2>&1
 
-" Web
-filextype *.html,*.htm
-        \ {Open with emacs}
-        \ emacsclient -c %c &,
-        \ {Open with vim}
-        \ vim %c &,
-        \ {Open with dwb}
-        \ dwb %f %i &,
-        \ {Open with firefox}
-        \ firefox %f &,
-        \ {Open with uzbl}
-        \ uzbl-browser %f %i &,
-filetype *.html,*.htm links, lynx
-
 " Object
 filetype *.o nm %f | less
 
