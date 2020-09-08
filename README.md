@@ -2,6 +2,10 @@
 
 Package management aliases are included for both pacman (Arch) and apt (Debian/Ubuntu).
 
+# .emacs
+
+A very minimal GUI-based config with the Misterioso theme and with the super key (mod4) set as meta.
+
 # .config/nvim
 
 Uses vim-plug and the dracula theme by default.
