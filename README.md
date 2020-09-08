@@ -4,7 +4,13 @@ Package management aliases are included for both pacman (Arch) and apt (Debian/U
 
 # .emacs
 
-A very minimal GUI-based config with the Misterioso theme. The super key (mod4) is set as meta.
+A very minimal GUI-based config with the Dracula theme and neotree.
+
+The super key (mod4) is set as meta.
+
+Emacs will autocreate an ~/.emacs.d folder for the user.
+
+Packages may be installed via [MELPA](https://www.emacswiki.org/emacs/InstallingPackages).
 
 # .config/nvim
 
