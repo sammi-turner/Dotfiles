@@ -6,7 +6,7 @@ Package management aliases are included for both pacman (Arch) and apt (Debian/U
 
 A very minimal GUI-based config with the Dracula theme and neotree.
 
-The super key (mod4) is set as meta. The F8 key opens neotree.
+The super key (mod4) is set as meta. The F8 key toggles neotree on/off.
 
 Emacs will autocreate an ~/.emacs.d folder for the user.
 
