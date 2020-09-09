@@ -13,7 +13,7 @@
  '(font-use-system-font t)
  '(global-display-line-numbers-mode t)
  '(inhibit-startup-screen t)
- '(package-selected-packages '(dracula-theme neotree omnisharp))
+ '(package-selected-packages '(all-the-icons dracula-theme neotree omnisharp))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
  '(tool-bar-position 'bottom))
@@ -33,3 +33,4 @@
 (add-to-list 'load-path "/emacs.d/")
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
+(setq neo-theme (if window-system 'icons 'arrow))
