@@ -10,6 +10,8 @@ To fix that problem, install those named packages using META-x, RETURN, package-
 
 In this config, META is set to the Super key.
 
+When configuring via the GUI, don't forget to select "save" under "options" to preserve the changes.
+
 # .config/nvim
 
 Uses vim-plug and the dracula theme by default.
