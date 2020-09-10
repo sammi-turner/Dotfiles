@@ -4,7 +4,7 @@ Package management aliases are included for both pacman (Arch) and apt (Debian/U
 
 # .emacs
 
-Bare bones .emacs file for configuration via the GUI editor.
+Bare bones starter file for configuration via the GUI editor.
 
 # .config/nvim
 
