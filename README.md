@@ -4,7 +4,11 @@ Package management aliases are included for both pacman (Arch) and apt (Debian/U
 
 # .emacs
 
-Bare bones starter file for configuration via the GUI editor.
+WARNING : Loading this config up may trigger an error message about certain packages not being installed.
+
+To fix that problem, install those named packages using META-x, RETURN, package-install, RETURN, followed by the name of the missing package and RETURN again.
+
+In this config, META is set to the Super key.
 
 # .config/nvim
 
