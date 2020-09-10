@@ -1,6 +1,6 @@
 ;; This is the bare bones .emacs file that you need to get started. This will install MELPA.
 ;; From there, you may configure your settings via the options listed on the GUI editor.
-;; To install packages, follow the instructions shown on MELPA's README page : https://github.com/melpa/melpa.
+;; To install packages, follow the instructions shown here : https://www.emacswiki.org/emacs/InstallingPackages
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 ;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
