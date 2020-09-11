@@ -8,7 +8,9 @@ WARNING : Loading this config up may trigger an error message about certain pack
 
 To fix that problem, install those named packages using META-x, RETURN, package-install, RETURN, followed by the name of the missing package and RETURN again.
 
-In this config, META is set to the Super key.
+In this config, META is set to the Super key. The ESC key also works as a spare META.
+
+To cancel any command, use CTRL-g.
 
 When configuring via the GUI, don't forget to select "save" under "options" to preserve the changes.
 
