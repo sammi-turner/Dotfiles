@@ -34,3 +34,4 @@
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 (setq neo-theme (if window-system 'icons 'arrow))
+(setq backup-directory-alist `(("." . "~/.backups")))
