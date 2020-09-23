@@ -2,6 +2,8 @@
 
 Package management aliases are included for both pacman (Arch) and apt (Debian/Ubuntu).
 
+My config is quite bulky, but feel free to remove any unused environment variables or aliases that you don't need.
+
 # .emacs
 
 WARNING : Loading this config up may trigger an error message about certain packages not being installed.
