@@ -13,6 +13,8 @@ export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+
+# Emacs Environment Variable
 export PATH="$HOME/.emacs.d/bin:$PATH"
 
 # Deno Environment Variable
@@ -24,7 +26,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Go Environment Variable
 export GOPATH="$HOME/go"
 
-# Vifm
+# Vifm Environment Variable
 export PATH="$HOME/.config/vifm/scripts/:$PATH"
 alias vr="vifmrun"
 
