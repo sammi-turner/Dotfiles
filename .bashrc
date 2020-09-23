@@ -115,7 +115,7 @@ alias rr='ranger'
 alias rs='sudo ranger'
 alias repo='ranger Repos'
 
-# pacman commands (Arch-based distros)
+# Pacman commands (Arch-based distros)
 alias sps='sudo pacman -S'
 alias spr='sudo pacman -R'
 alias up='sudo pacman -Syyu'
