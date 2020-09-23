@@ -93,12 +93,16 @@ alias gg='go get'
 alias gr='go run'
 alias grm='go run main.go'
 
+# LLVM
+alias cm='clang++ main.cpp'
+alias run='./a.out'
+
 # Rust
-alias new='cargo new'
-alias init='cargo init'
-alias build='cargo build'
-alias check='cargo check'
-alias run='cargo run'
+alias cn='cargo new'
+alias ci='cargo init'
+alias cb='cargo build'
+alias ch='cargo check'
+alias cr='cargo run'
 
 # Monkey
 alias repl='$GOPATH/bin/monkey-interpreter'
