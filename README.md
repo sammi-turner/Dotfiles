@@ -18,8 +18,6 @@ To cancel any command, use CTRL-g.
 
 When configuring via the GUI, don't forget to select "save" under "options" to preserve the changes.
 
-This config also creates a .backups directory in the home folder.
-
 # .config/nvim
 
 Uses vim-plug and the dracula theme by default.
