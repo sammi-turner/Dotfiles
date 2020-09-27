@@ -42,6 +42,8 @@ A single pane config with no image previews.
 
 This colourscheme can be added to Gedit via the editor itself.
 
+# Gedit
+
 Gedit is a seriously under-rated lightweight text editor that is very easy to configure via the GUI.
 
 Install the gedit and gedit-plugins packages on Linux to get the full benefit.
