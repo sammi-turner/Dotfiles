@@ -37,3 +37,13 @@ A dual pane config with [Uberzug image previews](https://github.com/cirala/vifmi
 # .config/ranger
 
 A single pane config with no image previews.
+
+# dracula.xml
+
+This colourscheme can be added to Gedit via the editor itself.
+
+Gedit is a seriously under-rated lightweight text editor that is very easy to configure via the GUI.
+
+Install the gedit and gedit-plugins packages on Linux to get the full benefit.
+
+I recommend enabling the built-in terminal and playing with the settings in order to find a workflow that suits you.
