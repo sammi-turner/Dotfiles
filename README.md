@@ -28,6 +28,8 @@ Uses vim-plug and the dracula theme by default.
 
 Don't forget to use the :PlugInstall command after adding new plug-ins to the config.
 
+To remove plug-ins, simply delete them from init.vim and run the command :PlugClean.
+
 # .config/vifm
 
 A dual pane config with [Uberzug image previews](https://github.com/cirala/vifmimg).
