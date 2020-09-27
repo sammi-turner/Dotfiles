@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
 
 " Dev environment
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neovim/nvim-lsp'
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
@@ -35,10 +36,12 @@ Plug 'fatih/vim-go'
 " Initialize plugin system
 call plug#end()
 
+" Navigation settings
 inoremap jk <ESC>
-nmap <C-n> :NERDTreeToggle<CR>
+nmap <F6> :NERDTreeToggle<CR>
 vmap ++ <plug>NERDCommenterToggle
 nmap ++ <plug>NERDCommenterToggle
+let NERDTreeShowHidden=1
 
 " Deoplete
 let g:deoplete#enable_at_startup = 1
@@ -87,7 +90,7 @@ autocmd BufEnter * call SyncTree()
 let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-pairs',
-  \ 'coc-tsserver',
+  \ 'coc-tsserver', 
   \ 'coc-prettier', 
   \ 'coc-json', 
   \ ]
