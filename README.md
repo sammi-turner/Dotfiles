@@ -20,6 +20,10 @@ When configuring via the GUI, don't forget to select "save" under "options" to p
 
 # .config/nvim
 
+To toggle Nerdtree, press F6.
+
+To switch the cursor between your text and the directory in Nerdtree, press CTRL-w-w.
+
 Uses vim-plug and the dracula theme by default.
 
 Don't forget to use the :PlugInstall command after adding new plug-ins to the config.
