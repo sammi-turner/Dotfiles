@@ -15,13 +15,21 @@ Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'kien/rainbow_parentheses.vim'
+
+" C++
+Plug 'bfrg/vim-cpp-modern'
+
+" Rust
+Plug 'rust-lang/rust'
 
 " C Sharp
 Plug 'OmniSharp/omnisharp-vim'
 
-" JavaScript and Node run-time
+" JavaScript, Node and Svelte
 Plug 'pangloss/vim-javascript'
 Plug 'moll/vim-node'
+Plug 'coc-extensions/coc-svelte'
 
 " Mark-up
 Plug 'mattn/emmet-vim'
@@ -56,8 +64,8 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 
+" settings
 set relativenumber
-
 set smarttab
 set cindent
 set tabstop=2
@@ -66,6 +74,7 @@ set shiftwidth=2
 " always uses spaces instead of tab characters
 set expandtab
 
+" set colour scheme
 colorscheme dracula
 
 " sync open file with NERDTree
