@@ -96,7 +96,7 @@ alias gr='go run'
 alias grm='go run main.go'
 
 # LLVM
-alias cpp='clang++ main.cpp'
+alias clg='clang++ main.cpp'
 alias run='./a.out'
 
 # Rust
