@@ -106,10 +106,6 @@ alias cb='cargo build'
 alias ch='cargo check'
 alias cr='cargo run'
 
-# Monkey
-alias repl='$GOPATH/bin/monkey-interpreter'
-alias script='$GOPATH/bin/monkey-interpreter script.monkey'
-
 # Ranger
 alias rr='ranger'
 alias rs='sudo ranger'
