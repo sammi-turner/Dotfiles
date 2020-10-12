@@ -95,6 +95,13 @@ alias gg='go get'
 alias gr='go run'
 alias grm='go run main.go'
 
+# Rust
+alias cn='cargo new'
+alias ci='cargo init'
+alias cb='cargo build'
+alias ch='cargo check'
+alias cr='cargo run'
+
 # GCC
 alias gnu='g++ main.cpp'
 
@@ -103,13 +110,6 @@ alias clg='clang++ main.cpp'
 
 # Run binary
 alias run='./a.out'
-
-# Rust
-alias cn='cargo new'
-alias ci='cargo init'
-alias cb='cargo build'
-alias ch='cargo check'
-alias cr='cargo run'
 
 # Ranger
 alias rr='ranger'
