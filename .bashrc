@@ -95,8 +95,13 @@ alias gg='go get'
 alias gr='go run'
 alias grm='go run main.go'
 
+# GCC
+alias gnu='g++ main.cpp'
+
 # LLVM
 alias clg='clang++ main.cpp'
+
+# Run binary
 alias run='./a.out'
 
 # Rust
