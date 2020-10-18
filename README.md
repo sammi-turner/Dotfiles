@@ -18,7 +18,7 @@ To cancel any command, use CTRL-g.
 
 When configuring via the GUI, don't forget to select "save" under "options" to preserve the changes.
 
-# .config/nvim
+# .vimrc
 
 To toggle Nerdtree, press F6.
 
