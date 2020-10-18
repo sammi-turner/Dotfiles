@@ -18,22 +18,6 @@ To cancel any command, use CTRL-g.
 
 When configuring via the GUI, don't forget to select "save" under "options" to preserve the changes.
 
-# .vimrc
-
-To toggle Nerdtree, press F6.
-
-To switch the cursor between your text and the directory in Nerdtree, press CTRL-w-w.
-
-Uses vim-plug and the dracula theme by default.
-
-Don't forget to use the :PlugInstall command after adding new plug-ins to the config.
-
-To remove plug-ins, simply delete them from init.vim and run the command :PlugClean.
-
-# .config/vifm
-
-A dual pane config with [Uberzug image previews](https://github.com/cirala/vifmimg).
-
 # .config/ranger
 
 A single pane config with no image previews.
