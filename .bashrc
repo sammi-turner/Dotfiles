@@ -6,9 +6,9 @@
 # Environment Variables
 PS1=' \w \$ '
 RANGER_LOAD_DEFAULT_RC=FALSE
-EDITOR=nvim
-PAGER=nvim
-export VISUAL EDITOR=nvim
+EDITOR=vim
+PAGER=vim
+export VISUAL EDITOR=vim
 export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
@@ -29,12 +29,6 @@ export GOPATH="$HOME/go"
 # Vifm Environment Variable
 export PATH="$HOME/.config/vifm/scripts/:$PATH"
 alias vr="vifmrun"
-
-# Powerline
-powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-. /usr/share/powerline/bindings/bash/powerline.sh
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
