@@ -22,6 +22,22 @@ When configuring via the GUI, don't forget to select "save" under "options" to p
 
 A single pane config with no image previews.
 
+# .vimrc
+
+My current .vimrc consists of only three lines.
+
+Instead of using a plug-in manager, I installed the following plug-ins from the Arch repos.
+
+```
+vim-airline
+vim-airline-themes
+vim-devicons
+vim-dracula
+vim-nerdtree
+powerline-common
+powerline-fonts
+```
+
 # dracula.xml
 
 This colourscheme can be added to Gedit via the editor itself.
