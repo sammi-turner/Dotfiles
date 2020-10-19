@@ -26,12 +26,11 @@ A single pane config with no image previews.
 
 My current .vimrc consists of only three lines.
 
-The four vim packages I have installed are from the Arch repos.
+The three vim packages I have installed are from the Arch repos.
 
 ```
 vim
 vim-runtime
-vim-devicons
 vim-dracula
 ```
 
