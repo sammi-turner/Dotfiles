@@ -23,13 +23,6 @@ export PATH="$HOME/.deno/bin:$PATH"
 # Rust Environment Variable
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# Go Environment Variable
-export GOPATH="$HOME/go"
-
-# Vifm Environment Variable
-export PATH="$HOME/.config/vifm/scripts/:$PATH"
-alias vr="vifmrun"
-
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
@@ -82,13 +75,6 @@ alias mr='mono Program.exe'
 # Python
 alias pa='python app.py'
 
-# Go
-alias gb='go build'
-alias gf='go fmt'
-alias gg='go get'
-alias gr='go run'
-alias grm='go run main.go'
-
 # Rust
 alias cn='cargo new'
 alias ci='cargo init'
@@ -105,10 +91,13 @@ alias clg='clang++ main.cpp'
 # Run binary
 alias run='./a.out'
 
+# NPM
+alias ni='npm install -D'
+alias ns='npm start'
+
 # Ranger
 alias rr='ranger'
 alias rs='sudo ranger'
-alias repo='ranger Repos'
 
 # Pacman commands (Arch-based distros)
 alias sps='sudo pacman -S'
