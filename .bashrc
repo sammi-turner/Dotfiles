@@ -92,8 +92,10 @@ alias clg='clang++ main.cpp'
 alias run='./a.out'
 
 # NPM
-alias ni='npm install -D'
-alias ns='npm start'
+alias init='npm init'
+alias dep='npm install -D'
+alias install='npm install'
+alias start='npm start'
 
 # Ranger
 alias rr='ranger'
