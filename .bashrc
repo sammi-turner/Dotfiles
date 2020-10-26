@@ -91,11 +91,11 @@ alias clg='clang++ main.cpp'
 # Run binary
 alias run='./a.out'
 
+# Node
+alias ns='node server'
+
 # NPM
-alias init='npm init'
 alias dep='npm install -D'
-alias install='npm install'
-alias start='npm start'
 
 # Ranger
 alias rr='ranger'
