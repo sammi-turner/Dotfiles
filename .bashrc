@@ -92,7 +92,9 @@ alias clg='clang++ main.cpp'
 alias run='./a.out'
 
 # PostgreSQL
-alias sql='sudo -iu postgres'
+alias puser='sudo -u postgres -i'
+alias enable='sudo systemctl enable postgres.service'
+alias start='sudo system.ctl start postgres.service'
 
 # Node
 alias ns='node server'
