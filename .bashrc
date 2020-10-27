@@ -91,7 +91,7 @@ alias clg='clang++ main.cpp'
 # Run binary
 alias run='./a.out'
 
-# PostgreSQL on Arch-based distros
+# PostgreSQL on systemd-using linux distros
 alias pu='sudo -u postgres -i'
 alias pe='sudo systemctl enable postgres.service'
 alias ps='sudo systemctl start postgres.service'
