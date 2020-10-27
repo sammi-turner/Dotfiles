@@ -92,9 +92,9 @@ alias clg='clang++ main.cpp'
 alias run='./a.out'
 
 # PostgreSQL on Arch-based distros
-alias puser='sudo -u postgres -i'
-alias enable='sudo systemctl enable postgres.service'
-alias start='sudo systemctl start postgres.service'
+alias pu='sudo -u postgres -i'
+alias pe='sudo systemctl enable postgres.service'
+alias ps='sudo systemctl start postgres.service'
 
 # Node
 alias ns='node server'
