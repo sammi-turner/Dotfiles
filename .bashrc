@@ -92,9 +92,7 @@ alias clg='clang++ main.cpp'
 alias run='./a.out'
 
 # JavaScript
-alias niy='npm init --yes'
-alias nid='npm install -D'
-alias nti='npx tsc index.ts'
+alias ny='npm init --yes'
 alias ni='node index.js'
 
 # Ranger
