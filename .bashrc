@@ -99,7 +99,13 @@ alias ni='node index.js'
 alias rr='ranger'
 alias rs='sudo ranger'
 
-# Pacman commands (Arch-based distros)
+# Apt commands (Debian or Ubuntu based distros)
+alias upd='sudo apt update'
+alias upg='sudo apt upgrade'
+alias ai='sudo apt install'
+alias ap='sudo apt purge'
+
+# Pacman commands (Arch based distros)
 alias sps='sudo pacman -S'
 alias spr='sudo pacman -R'
 alias up='sudo pacman -Syyu'
