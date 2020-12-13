@@ -82,8 +82,10 @@ alias cb='cargo build'
 alias ch='cargo check'
 alias cr='cargo run'
 
-# GCC
+# GNU
 alias gnu='g++ main.cpp'
+alias mgw='gcc main.cpp'
+alias run='./a.out'
 
 # LLVM
 alias clg='clang++ main.cpp'
