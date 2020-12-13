@@ -84,7 +84,7 @@ alias cr='cargo run'
 
 # GNU
 alias gnu='g++ main.cpp'
-alias mgw='gcc main.cpp'
+alias mgw='gcc main.c'
 alias run='./a.out'
 
 # LLVM
