@@ -68,6 +68,18 @@ fi
 # Change ownership from root to user
 alias cho='sudo chown -R $USER'
 
+# GNU Compile C
+alias mgw='gcc main.c'
+
+# GNU Compile C++ for Speed
+alias spd='g++ main.cpp -flto -O'
+
+# GNU Compile C++ for Binary Size
+alias siz='g++ main.cpp -flto -Os'
+
+# Run Binaries
+alias run='./a.out'
+
 # Mono
 alias mb='csc *.cs'
 alias mr='mono Program.exe'
@@ -81,17 +93,6 @@ alias ci='cargo init'
 alias cb='cargo build'
 alias ch='cargo check'
 alias cr='cargo run'
-
-# GNU
-alias gnu='g++ main.cpp'
-alias mgw='gcc main.c'
-alias run='./a.out'
-
-# LLVM
-alias clg='clang++ main.cpp'
-
-# Run binary
-alias run='./a.out'
 
 # JavaScript
 alias ny='npm init --yes'
