@@ -72,7 +72,7 @@ alias cho='sudo chown -R $USER'
 alias mgw='gcc -lncurses main.c'
 
 # GNU Compile C++ for Speed
-alias snc='g++ -lncurses main.cpp -flto -O'
+alias spd='g++ -lncurses main.cpp -flto -O'
 
 # GNU Compile C++ for Binary Size
 alias siz='g++ -lncurses main.cpp -flto -Os'
