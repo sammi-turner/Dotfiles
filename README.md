@@ -24,15 +24,20 @@ A single pane config with no image previews.
 
 # .vimrc
 
-My current .vimrc consists of only three lines.
+My current .vimrc consists of only five lines.
 
-The three vim packages I have installed are from the Arch repos.
+The four vim packages I have installed on my system are from the Arch repos.
 
 ```
 vim
 vim-runtime
-vim-dracula
+vim-airline
+vim-airline-themes
 ```
+
+For plug-ins, I use [vim-plug](https://www.youtube.com/watch?v=nDv9iPv_8R4).
+
+The only vim plug-in I have installed right now is [Conqueror of Completion](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim).
 
 # dracula.xml
 
