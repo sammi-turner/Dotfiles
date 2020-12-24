@@ -69,13 +69,13 @@ fi
 alias cho='sudo chown -R $USER'
 
 # GNU Compile C
-alias mgw='gcc main.c'
+alias mgw='gcc -lncurses main.c'
 
 # GNU Compile C++ for Speed
-alias spd='g++ main.cpp -flto -O'
+alias snc='g++ -lncurses main.cpp -flto -O'
 
 # GNU Compile C++ for Binary Size
-alias siz='g++ main.cpp -flto -Os'
+alias siz='g++ -lncurses main.cpp -flto -Os'
 
 # Run Binaries
 alias run='./a.out'
