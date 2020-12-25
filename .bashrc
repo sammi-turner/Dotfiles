@@ -69,7 +69,7 @@ fi
 alias cho='sudo chown -R $USER'
 
 # GNU Compile C
-alias mgw='gcc -lncurses main.c'
+alias gnu='gcc -lncurses main.c'
 
 # GNU Compile C++ for Speed
 alias spd='g++ -lncurses main.cpp -flto -O'
