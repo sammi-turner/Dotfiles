@@ -65,6 +65,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Clear Screen
+alias cls='clear'
+
 # Change ownership from root to user
 alias cho='sudo chown -R $USER'
 
