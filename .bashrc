@@ -17,12 +17,6 @@ export PATH="$HOME/.local/bin:$PATH"
 # Emacs Environment Variable
 export PATH="$HOME/.emacs.d/bin:$PATH"
 
-# Deno Environment Variable
-export PATH="$HOME/.deno/bin:$PATH"
-
-# Rust Environment Variable
-export PATH="$HOME/.cargo/bin:$PATH"
-
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
@@ -83,23 +77,8 @@ alias siz='g++ -lncurses main.cpp -flto -Os'
 # Run Binaries
 alias run='./a.out'
 
-# Mono
-alias mb='csc *.cs'
-alias mr='mono Program.exe'
-
 # Python
 alias pa='python app.py'
-
-# Rust
-alias cn='cargo new'
-alias ci='cargo init'
-alias cb='cargo build'
-alias ch='cargo check'
-alias cr='cargo run'
-
-# JavaScript
-alias ny='npm init --yes'
-alias ni='node index.js'
 
 # Ranger
 alias rr='ranger'
@@ -114,6 +93,7 @@ alias ap='sudo apt purge'
 # Pacman commands (Arch based distros)
 alias sps='sudo pacman -S'
 alias spr='sudo pacman -R'
+alias sprc='sudo pacman -R --cascade'
 alias up='sudo pacman -Syyu'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias list='pacman -Q > package_list.txt'
@@ -153,16 +133,3 @@ alias sb='source .bashrc'
 
 # Neofetch
 alias neo='neofetch'
-
-# Deno
-alias dc='deno cache'
-alias dr='deno run -q'
-alias dra='deno run -A -q'
-alias dft='deno fmt'
-
-# Dotnet
-alias dnr='dotnet run'
-
-# Blazor
-alias bsa='dotnet new blazorserver -o'
-alias wsm='dotnet new wasm -o'
