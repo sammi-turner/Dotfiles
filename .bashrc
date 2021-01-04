@@ -13,6 +13,8 @@ export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+
+# Rust Environment variable
 export PATH="$HOME/.cargo/env:$PATH"
 
 # Emacs Environment Variable
