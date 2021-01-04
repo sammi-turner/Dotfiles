@@ -13,6 +13,7 @@ export EDITOR
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.cargo/env:$PATH"
 
 # Emacs Environment Variable
 export PATH="$HOME/.emacs.d/bin:$PATH"
@@ -59,12 +60,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Clear Screen
-alias cls='clear'
-
-# Change ownership from root to user
-alias cho='sudo chown -R $USER'
-
 # GNU Compile C
 alias gnu='gcc -lncurses main.c'
 
@@ -77,8 +72,16 @@ alias siz='g++ -lncurses main.cpp -flto -Os'
 # Run Binaries
 alias run='./a.out'
 
-# Python
-alias pa='python app.py'
+# Cargo
+alias cn='cargo new'
+alias cr='cargo run'
+alias cb='cargo build --release'
+
+# Clear Screen
+alias cls='clear'
+
+# Change ownership from root to user
+alias cho='sudo chown -R $USER'
 
 # Ranger
 alias rr='ranger'
@@ -133,3 +136,5 @@ alias sb='source .bashrc'
 
 # Neofetch
 alias neo='neofetch'
+
+source "$HOME/.cargo/env"
