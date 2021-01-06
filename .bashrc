@@ -71,12 +71,6 @@ alias spd='g++ -lncurses main.cpp -flto -O'
 # GNU Compile Ncurses C++ for Smallest Binary
 alias siz='g++ -lncurses main.cpp -flto -Os'
 
-# GNU Compile SFML Step 1
-alias sf1='g++ -c main.cpp'
-
-# GNU Compile SFML Step 2
-alias sf2='g++ main.o -o a.out -lsfml-graphics -lsfml-window -lsfml-system'
-
 # Run Binary With Default Name
 alias run='./a.out'
 
