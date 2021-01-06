@@ -62,22 +62,28 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# GNU Compile C
+# GNU Compile Ncurses C
 alias gnu='gcc -lncurses main.c'
 
-# GNU Compile C++ for Speed
+# GNU Compile Ncurses C++ for Speed
 alias spd='g++ -lncurses main.cpp -flto -O'
 
-# GNU Compile C++ for Binary Size
+# GNU Compile Ncurses C++ for Smallest Binary
 alias siz='g++ -lncurses main.cpp -flto -Os'
 
-# Run Binaries
+# GNU Compile SFML Step 1
+alias sf1='g++ -c main.cpp'
+
+# GNU Compile SFML Step 2
+alias sf2='g++ main.o -o a.out -lsfml-graphics -lsfml-window -lsfml-system'
+
+# Run Binary With Default Name
 alias run='./a.out'
 
-# Cargo
+# Rust
 alias cn='cargo new'
 alias cr='cargo run'
-alias cb='cargo build --release'
+alias cb='cargo build'
 
 # Clear Screen
 alias cls='clear'
