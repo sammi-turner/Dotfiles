@@ -25,7 +25,3 @@ A single pane config with no image previews.
 For plug-ins, I use [vim-plug](https://www.youtube.com/watch?v=nDv9iPv_8R4).
 
 The only plug-in I have installed right now is [Conqueror of Completion](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim).
-
-# dracula.xml
-
-This colourscheme can be added to Gedit via the editor itself.
