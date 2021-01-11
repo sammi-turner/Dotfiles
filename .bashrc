@@ -10,6 +10,7 @@ EDITOR=vim
 PAGER=vim
 export VISUAL EDITOR=vim
 export EDITOR
+
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/lib:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
@@ -62,8 +63,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# GNU Compile Ncurses C
-alias gnu='gcc -lncurses main.c'
+# GNU Compile Raylib C
+alias ray='gcc main.c -lraylib -lglfw -lGL -lopenal -lm -pthread -ldl'
 
 # GNU Compile Ncurses C++ for Speed
 alias spd='g++ -lncurses main.cpp -flto -O'
@@ -79,6 +80,8 @@ alias cn='cargo new'
 alias cr='cargo run'
 alias cb='cargo build'
 
+# Haskell
+alias repl='stack ghci'
 # Clear Screen
 alias cls='clear'
 
