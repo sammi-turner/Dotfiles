@@ -82,6 +82,7 @@ alias cb='cargo build'
 
 # Haskell
 alias repl='stack ghci'
+
 # Clear Screen
 alias cls='clear'
 
