@@ -83,6 +83,12 @@ alias cb='cargo build'
 # Haskell
 alias repl='stack ghci'
 
+# Python
+alias pa='python app.py'
+
+# Edit This File
+alias brc='vim ~/.bashrc'
+
 # Clear Screen
 alias cls='clear'
 
