@@ -72,6 +72,12 @@ alias spd='g++ -lncurses main.cpp -flto -O'
 # GNU Compile Ncurses C++ for Smallest Binary
 alias siz='g++ -lncurses main.cpp -flto -Os'
 
+# Create Main C++ File
+alias tmc='touch main.cpp'
+
+# Edit Main C++ File
+alias vmc='vim main.cpp'
+
 # Run Binary With Default Name
 alias run='./a.out'
 
