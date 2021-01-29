@@ -48,7 +48,7 @@ shopt -s globstar
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # exa
-alias ex="exa -G -a"
+alias ex='exa -G -a'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -66,6 +66,9 @@ alias ray='gcc main.c -lraylib -lglfw -lGL -lopenal -lm -pthread -ldl'
 
 # GNU Compile Ncurses C++ for Speed
 alias spd='g++ -lncurses main.cpp -flto -O'
+
+# GNU Compile C++20 for Speed
+alias c20='g++ main.cpp -flto -O -std=c++14'
 
 # GNU Compile Ncurses C++ for Smallest Binary
 alias siz='g++ -lncurses main.cpp -flto -Os'
