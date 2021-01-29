@@ -61,20 +61,14 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# GNU Compile C++20 for Speed
-alias c20='g++ main.cpp -flto -O -std=c++20'
-
-# GNU Compile C++20 for Smallest Binary
-alias c20='g++ main.cpp -flto -Os -std=c++20s'
-
 # GNU Compile Raylib C
 alias ray='gcc main.c -lraylib -lglfw -lGL -lopenal -lm -pthread -ldl'
 
-# GNU Compile Ncurses C++ for Speed
-alias spd='g++ -lncurses main.cpp -flto -O -std=c++20'
+# GNU Compile C++20 for Speed
+alias c20='g++ main.cpp -flto -O -std=c++20'
 
-# GNU Compile Ncurses C++ for Smallest Binary
-alias siz='g++ -lncurses main.cpp -flto -Os -std=c++20'
+# GNU Compile Ncurses C++20 for Speed
+alias spd='g++ -lncurses main.cpp -flto -O -std=c++20'
 
 # Run Binary With Default Name
 alias run='./a.out'
