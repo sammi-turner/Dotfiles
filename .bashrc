@@ -64,11 +64,11 @@ fi
 # GNU Compile Raylib C
 alias ray='gcc main.c -lraylib -lglfw -lGL -lopenal -lm -pthread -ldl'
 
-# GNU Compile C++20 for Speed
+# GNU Compile C++20
 alias c20='g++ main.cpp -flto -O -std=c++20'
 
-# GNU Compile Ncurses C++20 for Speed
-alias spd='g++ -lncurses main.cpp -flto -O -std=c++20'
+# GNU Compile Ncurses C++20
+alias ncu='g++ -lncurses main.cpp -flto -O -std=c++20'
 
 # Run Binary With Default Name
 alias run='./a.out'
