@@ -61,6 +61,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Apache Web Server
+alias astart='sudo /opt/lampp/lampp start'
+alias astop='sudo /opt/lampp/lampp stop'
+alias arest='sudo /opt/lampp/lampp restart'
+
 # GNU Compile Raylib C
 alias ray='gcc main.c -lraylib -lglfw -lGL -lopenal -lm -pthread -ldl'
 
