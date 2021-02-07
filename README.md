@@ -6,6 +6,10 @@ Package management aliases are included for both pacman (Arch) and apt (Debian/U
 
 A single pane config with no image previews.
 
+# .config/alacritty/alacritty.yml
+
+Alacritty is a great terminal emulator, and you don't need a separate GPU to take advantage of it.
+
 # .vimrc
 
 For plug-ins, I use [vim-plug](https://www.youtube.com/watch?v=nDv9iPv_8R4).
