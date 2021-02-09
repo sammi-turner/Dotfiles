@@ -83,9 +83,6 @@ alias cn='cargo new'
 alias cr='cargo run'
 alias cb='cargo build'
 
-# Haskell
-alias repl='stack ghci'
-
 # Python
 alias pa='python app.py'
 
