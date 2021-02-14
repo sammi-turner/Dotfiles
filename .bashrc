@@ -72,6 +72,9 @@ alias ray='gcc main.c -lraylib -lglfw -lGL -lopenal -lm -pthread -ldl'
 # GNU Compile C++20
 alias c20='g++ main.cpp -flto -O -std=c++20'
 
+# GNU Compile C++20, first error only
+alias feo='g++ main.cpp -flto -O -std=c++20 -Wfatal-errors'
+
 # GNU Compile Ncurses C++20
 alias ncu='g++ -lncurses main.cpp -flto -O -std=c++20'
 
