@@ -47,8 +47,9 @@ shopt -s globstar
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# exa
-alias ex='exa -G -a'
+# ls commands
+alias dots='ls -a | sort'
+alias lst='ls | sort'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -65,9 +66,6 @@ fi
 alias astart='sudo /opt/lampp/lampp start'
 alias astop='sudo /opt/lampp/lampp stop'
 alias arest='sudo /opt/lampp/lampp restart'
-
-# GNU Compile Raylib C
-alias ray='gcc main.c -lraylib -lglfw -lGL -lopenal -lm -pthread -ldl'
 
 # GNU Compile C++20
 alias c20='g++ main.cpp -flto -O -std=c++20'
