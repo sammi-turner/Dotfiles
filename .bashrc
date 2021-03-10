@@ -67,6 +67,9 @@ alias astart='sudo /opt/lampp/lampp start'
 alias astop='sudo /opt/lampp/lampp stop'
 alias arest='sudo /opt/lampp/lampp restart'
 
+# GNU Compile Ncurses C
+alias ncu='gcc -lncurses main.c'
+
 # GNU Compile C++20
 alias c20='g++ main.cpp -flto -O -std=c++20'
 
@@ -74,7 +77,7 @@ alias c20='g++ main.cpp -flto -O -std=c++20'
 alias feo='g++ main.cpp -flto -O -std=c++20 -Wfatal-errors'
 
 # GNU Compile Ncurses C++20
-alias ncu='g++ -lncurses main.cpp -flto -O -std=c++20'
+alias neo='g++ -lncurses main.cpp -flto -O -std=c++20'
 
 # Run Binary With Default Name
 alias run='./a.out'
