@@ -150,7 +150,4 @@ alias sr='sudo reboot'
 # Reload this file
 alias sb='source .bashrc'
 
-# Neofetch
-alias neo='neofetch'
-
 source "$HOME/.cargo/env"
